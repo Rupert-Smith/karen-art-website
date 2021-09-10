@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.three-easy-steps-section {
+  background-color: #e2e9ed;
+}
+
+.three-easy-steps-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps-title-box {
+  margin-bottom: 8.125em;
+}
+
+.smiling-customer {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.smiling-customer-container {
+  -webkit-box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+          box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+  width: 45em;
+  height: 60em;
+  overflow: hidden;
+  margin-bottom: 8.125em;
+}
+
+.step-number-container {
+  margin-left: 9em;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 4.6875em;
+  -ms-grid-columns: auto 500px;
+      grid-template-columns: auto 500px;
+  list-style: none;
+  height: 500px;
+  margin-top: 5em;
+}
+
+.step-content {
+  font-size: 2.5rem;
+  color: #6a6a6a;
+  padding-top: 35px;
+}
+/*# sourceMappingURL=three-easy-steps.css.map */

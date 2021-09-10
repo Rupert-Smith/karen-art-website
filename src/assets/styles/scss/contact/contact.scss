@@ -1,0 +1,73 @@
+@import "../partials/mixins";
+
+.contact-title {
+  margin-top: 2em;
+}
+
+.contact-info {
+  @include general-text;
+  margin-top: 1em;
+  text-align: center;
+  // width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contact-form-container {
+  @include general-text;
+  display: flex;
+  flex-direction: column;
+  // background-color: lightblue;
+  align-items: center;
+  margin-top: 2em;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.contact-form {
+  display: grid;
+  grid-row-gap: 0.7em;
+  grid-column-gap: 3em;
+  grid-template-areas:
+    "label input"
+    "label input"
+    "label input"
+    "label input"
+    "null send-button";
+
+  label {
+    grid-area: "label";
+    // margin-right: 6em;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="file"],
+  textarea {
+    grid-area: "input";
+    width: 25em;
+    font-size: $medium-small-font-size;
+    padding: 0.6em;
+    border-radius: 1px;
+    border: 1px solid $main-title-color;
+  }
+
+  textarea {
+    height: 17rem;
+    font-family: $default-font;
+  }
+
+  input[type="submit"] {
+    grid-area: "send-button";
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 2.3rem;
+    width: 9em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: $hero-red;
+    color: white;
+    border: none;
+  }
+}

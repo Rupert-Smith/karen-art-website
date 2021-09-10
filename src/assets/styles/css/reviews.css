@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.review-banner {
+  background-color: white;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("../../images/reviews/blue-collar_cropped-5.jpg");
+  height: 17vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.review-banner h2 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.review-block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.review-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 27%;
+  color: #4d4d4d;
+  height: 21em;
+}
+
+.review-block h3 {
+  font-size: 3rem;
+}
+
+.review-block blockquote {
+  font-size: 2rem;
+}
+
+.review-block cite {
+  font-size: 2rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=reviews.css.map */

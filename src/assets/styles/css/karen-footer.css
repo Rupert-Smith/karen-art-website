@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.footer-column-side {
+  margin-top: 3em;
+}
+
+.karen-footer-container {
+  background-color: #4d4d4d;
+  color: #acacac;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding-top: 3.7em;
+  padding-bottom: 2em;
+}
+
+.karen-footer-wrapper {
+  padding-left: 3%;
+  padding-right: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 3em;
+}
+
+.karen-footer-wrapper .footer-column {
+  width: 31.3%;
+}
+
+.karen-footer-wrapper h2 {
+  font-size: 5.7rem;
+  font-family: "Playfair Display SC";
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.footer-column-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-column-icons :first-child {
+  margin-left: 0px;
+}
+
+.footer-column-icons img {
+  margin-left: 1.2em;
+  height: 2.6em;
+}
+
+.footer-navigation {
+  background-color: lightblue;
+  line-height: 2em;
+}
+
+.footer-navigation li {
+  float: left;
+  list-style-type: none;
+  margin-left: 2em;
+}
+
+.footer-column-center {
+  float: left;
+  text-align: center;
+  line-height: 2.1em;
+}
+
+.footer-email {
+  margin-bottom: 0.1em;
+}
+
+.footer-copywrite {
+  text-align: center;
+}
+/*# sourceMappingURL=karen-footer.css.map */

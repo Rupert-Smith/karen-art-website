@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACEA,OAAO,CAAC,iKAAI;AAEZ,OAAO,CAAC,8HAAI;ADFZ,AAAA,uBAAuB,CAAC;EACtB,UAAU,EAAE,MAAM;EAClB,gBAAgB,ECeC,OAAO;EDdxB,KAAK,ECeiB,OAAO;EDd7B,SAAS,EC2Bc,IAAI;ED1B3B,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,GAAG;CACb",
+    "sources": [
+        "../scss/rupert-footer/rupert-footer.scss",
+        "../scss/partials/_variables.scss",
+        "../scss/partials/_functions.scss"
+    ],
+    "names": [],
+    "file": "rupert-footer.css"
+}

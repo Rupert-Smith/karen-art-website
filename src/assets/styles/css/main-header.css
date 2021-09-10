@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.main-header-home {
+  background-color: white;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.social-media-icons-color {
+  margin-top: 1.875em;
+  margin-left: 1.875em;
+  position: absolute;
+}
+
+.social-media-icons-color :first-child {
+  margin-left: 0px;
+}
+
+.social-media-icons-color img {
+  margin-left: 0.75em;
+  height: 3.125em;
+}
+
+.social-media-icons-color img:hover {
+  cursor: pointer;
+}
+
+.title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 20.625em;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  float: left;
+  list-style: none;
+  font-size: 2.8125em;
+  width: 100%;
+  color: white;
+  background-color: rgba(78, 78, 77, 0.2);
+}
+
+.navigation-bar li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  padding: 0.4375em;
+}
+
+.navigation-bar li:hover {
+  cursor: pointer;
+  background-color: rgba(68, 68, 67, 0.2);
+}
+
+.home-dog-hero {
+  background-image: url("../../images/heroes/home-dog-hero-tall-test3.jpg");
+}
+
+.main-title {
+  font-size: 5.7rem;
+  font-family: "Playfair Display SC";
+  font-weight: 500;
+  font-size: 5.7rem;
+  color: #707070;
+  margin-bottom: 0.3125em;
+}
+
+.main-subtitle {
+  color: #707070;
+  font-family: "Playfair Display SC";
+  font-size: 3.15rem;
+  font-weight: 400;
+  margin-bottom: 0.3125em;
+}
+
+.hero-text-box {
+  position: absolute;
+  width: 610px;
+  top: 50%;
+  left: 10%;
+  right: 53%;
+  -webkit-transform: translate(-10%, 10%);
+          transform: translate(-10%, 10%);
+}
+
+.hero-tagline {
+  color: #4e4e4e;
+  font-weight: 200;
+  font-size: 5.9375em;
+  margin-bottom: 0.3125em;
+}
+
+.hero-link-button {
+  font-size: 2.75em;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  cursor: pointer;
+}
+
+.link-button-full {
+  background-color: #dd9999;
+  color: white;
+}
+
+.link-button-full:hover {
+  background-color: #cc8c8c;
+}
+
+.link-button-ghost {
+  margin-left: 0.875em;
+  color: #dd9999;
+  border: 2px solid #dd9999;
+}
+
+.link-button-ghost:hover {
+  background-color: #dd9999;
+  color: white;
+}
+/*# sourceMappingURL=main-header.css.map */

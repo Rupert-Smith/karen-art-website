@@ -1,0 +1,34 @@
+// IMPORTS
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+@import "./functions";
+
+// COLORS
+
+$main-title-color: #707070;
+$hero-grey: #4e4e4e;
+$light-grey: #6a6a6a;
+$hero-red: #dd9999;
+$hero-red-hover: #cc8c8c;
+$three-steps-blue: #e2e9ed;
+$review-grey: #4d4d4d;
+$about-grey: #f5f5f5;
+$footer-grey: #acacac;
+$footer-dark-grey: #2c2c2c;
+$footer-dark-grey-text: #717171;
+
+// FONTS
+
+$default-font: "Nunito";
+$fancy-font: "Playfair Display SC";
+
+// SIZES
+
+$main-title-size: 5.7rem;
+$about-title-size: 4.2rem;
+$main-subtitle-size: 3.15rem;
+$medium-font-size: 2.5rem;
+$medium-small-font-size: 2rem;
