@@ -1,0 +1,91 @@
+@import "../../../assets/styles/scss/partials/variables";
+@import "../../../assets/styles/scss/partials/mixins";
+@import "../../../assets/styles/scss/partials/functions";
+
+.hero-text-box {
+  position: absolute;
+  right: 53%;
+  transform: translate(-10%, 10%);
+}
+
+.hero-text-box-home {
+  width: 610px;
+  top: 50%;
+  left: 10%;
+}
+
+.hero-text-box-nothome {
+  width: 610px;
+  top: 45%;
+  left: 13%;
+}
+
+.hero-tagline {
+  color: $hero-grey;
+  font-weight: 200;
+  font-size: em(95px);
+  margin-bottom: em(5px);
+}
+
+.hero-title {
+  color: white;
+  font-weight: 200;
+  font-family: $fancy-font;
+  font-size: $hero-size;
+  margin-bottom: 0.08em;
+
+  // margin-bottom: 5em;
+}
+
+.hero-link-button {
+  font-size: em(44px);
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  cursor: pointer;
+}
+
+.link-button-home-full {
+  background-color: $hero-red;
+  color: white;
+}
+
+.link-button-home-full:hover {
+  background-color: $hero-red-hover;
+}
+
+.link-button-home-ghost {
+  margin-left: em(14px);
+  color: $hero-red;
+  border: 2px solid $hero-red;
+}
+
+.link-button-home-ghost:hover {
+  background-color: $hero-red;
+  color: white;
+}
+
+.link-button-gallery-full {
+  background-color: $hero-black;
+  color: white;
+  margin-left: 0.3em;
+}
+
+.link-button-gallery-full:hover {
+  background-color: $hero-black-hover;
+  color: white;
+}
+
+.link-button-prices-full {
+  background-color: $hero-brown;
+  color: white;
+  margin-left: 0.3em;
+}
+
+.link-button-prices-full:hover {
+  background-color: $hero-brown-hover;
+  color: white;
+}

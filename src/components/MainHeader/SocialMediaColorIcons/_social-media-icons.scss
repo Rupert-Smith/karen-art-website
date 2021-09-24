@@ -1,0 +1,24 @@
+@import "../../../assets/styles/scss/partials/variables";
+@import "../../../assets/styles/scss/partials/functions";
+
+.social-media-icons-color {
+  margin-top: em(30px);
+  margin-left: em(30px);
+  position: absolute;
+  // float: left;
+
+  :first-child {
+    margin-left: 0px;
+  }
+  a {
+    margin-left: em(12px);
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  img {
+    height: em(50px);
+  }
+}

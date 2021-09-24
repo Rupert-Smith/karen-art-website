@@ -1,11 +1,11 @@
 import React from "react";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import SectionTitleBox from "../UI/SectionTitleBox/SectionTitleBox";
-import "../../assets/styles/css/contact.css";
+import "../../assets/styles/css/main.css";
 
-function Contact() {
+function Contact(props) {
   return (
-    <section className="">
+    <section id="contact">
       <SectionTitleBox>
         <SectionTitle className="contact-title">Message Karen</SectionTitle>
       </SectionTitleBox>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/styles/css/reviews.css";
+import "../../assets/styles/css/main.css";
 
 function Reviews(props) {
   return (

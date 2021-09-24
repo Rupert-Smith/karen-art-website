@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import SectionTitleBox from "../UI/SectionTitleBox/SectionTitleBox";
-import "../../assets/styles/css/welcome.css";
+import "../../assets/styles/css/main.css";
 import Section from "../UI/Section/Section";
 import SectionParagraph from "../UI/SectionParagraph/SectionParagraph";
 
@@ -9,7 +9,7 @@ import dogIcon from "../../assets/images/icons/dog-icon.png";
 
 function Welcome(props) {
   return (
-    <Section>
+    <Section id="welcome">
       <SectionTitleBox className="welcome-title-box">
         <SectionTitle>
           Welcome to Karen Reep Art: Creating Memories

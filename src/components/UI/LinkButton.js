@@ -11,7 +11,7 @@
 // export default LinkButton;
 
 import React from "react";
-import "../../assets/styles/css/main-header.css";
+import "../../assets/styles/css/main.css";
 import Card from "./Card/Card";
 import classes from "./LinkButton.module.css";
 

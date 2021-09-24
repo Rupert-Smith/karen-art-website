@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitleBox from "../UI/SectionTitleBox/SectionTitleBox";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import smilingCustomer from "../../assets/images/portrait-with-customer/smiling-customer.jpg";
-import "../../assets/styles/css/three-easy-steps.css";
+import "../../assets/styles/css/main.css";
 import Section from "../UI/Section/Section";
 import StepNumber from "../UI/StepNumber/StepNumber";
 

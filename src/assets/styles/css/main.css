@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+.main-header-container {
+  background-color: white;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.home-dog-hero {
+  background-image: url("../../images/heroes/home-dog-hero-tall-test3.jpg");
+}
+
+.gallery-dog-hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+}
+
+.prices-dog-hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+}
+
+.main-title {
+  font-size: 5.7rem;
+  font-family: "Playfair Display SC";
+  font-weight: 500;
+  font-size: 5.7rem;
+  color: #707070;
+  margin-bottom: 0.3125em;
+}
+
+.main-subtitle {
+  color: #707070;
+  font-family: "Playfair Display SC";
+  font-size: 3.15rem;
+  font-weight: 400;
+  margin-bottom: 0.3125em;
+}
+
+.title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 20.625em;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  float: left;
+  list-style: none;
+  font-size: 2.8125em;
+  width: 100%;
+  background-color: rgba(78, 78, 77, 0.2);
+}
+
+.nav-link-element {
+  text-decoration: none;
+  color: white;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  padding: 0.4em;
+}
+
+.nav-link-element:hover {
+  cursor: pointer;
+  background-color: rgba(68, 68, 67, 0.2);
+}
+
+.nav-link-element-active {
+  background-color: rgba(68, 68, 67, 0.2);
+}
+
+.hero-text-box {
+  position: absolute;
+  right: 53%;
+  -webkit-transform: translate(-10%, 10%);
+          transform: translate(-10%, 10%);
+}
+
+.hero-text-box-home {
+  width: 610px;
+  top: 50%;
+  left: 10%;
+}
+
+.hero-text-box-nothome {
+  width: 610px;
+  top: 45%;
+  left: 13%;
+}
+
+.hero-tagline {
+  color: #4e4e4e;
+  font-weight: 200;
+  font-size: 5.9375em;
+  margin-bottom: 0.3125em;
+}
+
+.hero-title {
+  color: white;
+  font-weight: 200;
+  font-family: "Playfair Display SC";
+  font-size: 11.5rem;
+  margin-bottom: 0.08em;
+}
+
+.hero-link-button {
+  font-size: 2.75em;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  cursor: pointer;
+}
+
+.link-button-home-full {
+  background-color: #dd9999;
+  color: white;
+}
+
+.link-button-home-full:hover {
+  background-color: #cc8c8c;
+}
+
+.link-button-home-ghost {
+  margin-left: 0.875em;
+  color: #dd9999;
+  border: 2px solid #dd9999;
+}
+
+.link-button-home-ghost:hover {
+  background-color: #dd9999;
+  color: white;
+}
+
+.link-button-gallery-full {
+  background-color: #555555;
+  color: white;
+  margin-left: 0.3em;
+}
+
+.link-button-gallery-full:hover {
+  background-color: #424242;
+  color: white;
+}
+
+.link-button-prices-full {
+  background-color: #b69898;
+  color: white;
+  margin-left: 0.3em;
+}
+
+.link-button-prices-full:hover {
+  background-color: #af8f8f;
+  color: white;
+}
+
+.social-media-icons-color {
+  margin-top: 1.875em;
+  margin-left: 1.875em;
+  position: absolute;
+}
+
+.social-media-icons-color :first-child {
+  margin-left: 0px;
+}
+
+.social-media-icons-color a {
+  margin-left: 0.75em;
+}
+
+.social-media-icons-color a:hover {
+  cursor: pointer;
+}
+
+.social-media-icons-color img {
+  height: 3.125em;
+}
+
+.about-container {
+  background-color: #f5f5f5;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-column-gap: 10em;
+  padding: 9em;
+      grid-template-areas: "title image" "about image";
+}
+
+.about-container h2 {
+  font-size: 4.2rem;
+  color: #707070;
+  text-transform: uppercase;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: title;
+  margin-bottom: 5rem;
+}
+
+.about-container h2:after {
+  display: block;
+  height: 6px;
+  background-color: #707070;
+  content: " ";
+  width: 100px;
+  margin-top: 30px;
+}
+
+.about-container p {
+  font-size: 2.5rem;
+  color: #707070;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: about;
+  text-align: center;
+  width: 26em;
+}
+
+.about-photo {
+  -webkit-box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+          box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+  width: 40em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.about-photo-container {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: image;
+  width: 40em;
+}
+
+.welcome-paragraph {
+  margin: auto;
+  margin-top: 1.125em;
+  width: 65%;
+}
+
+.dog-icon {
+  position: absolute;
+  margin-left: 0.4em;
+  height: 1.4em;
+}
+
+.carousel-section-container {
+  height: 60em;
+  margin-bottom: 9em;
+}
+
+.carousel-section-container img {
+  -webkit-box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+          box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+  display: block;
+  margin: auto;
+  width: 44em;
+  height: 60em;
+  border-radius: 10px;
+}
+
+.carousel-container {
+  overflow: hidden;
+}
+
+.slick-prev {
+  left: 30px;
+}
+
+.slick-next {
+  right: 40px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 100;
+  width: 80px;
+  height: 80px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  cursor: pointer;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #dd9999;
+  opacity: 0.5;
+  font-size: 10rem;
+  line-height: 1.3;
+}
+
+.slick-dots {
+  bottom: -5.5em;
+}
+
+.slick-dots li button:before {
+  font-size: 1.1rem;
+}
+
+.three-easy-steps-section {
+  background-color: #e2e9ed;
+}
+
+.three-easy-steps-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 7em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps-title-box {
+  margin-bottom: 8.125em;
+}
+
+.smiling-customer {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.smiling-customer-container {
+  -webkit-box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+          box-shadow: rgba(100, 100, 100, 0.3) 4.4px 4.4px 4.2px;
+  width: 45em;
+  height: 60em;
+  overflow: hidden;
+  margin-bottom: 8.125em;
+}
+
+.step-number-container {
+  margin-left: 9em;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 4.6875em;
+  -ms-grid-columns: auto 500px;
+      grid-template-columns: auto 500px;
+  list-style: none;
+  height: 500px;
+  margin-top: 5em;
+}
+
+.step-content {
+  font-size: 2.5rem;
+  color: #6a6a6a;
+  padding-top: 35px;
+}
+
+.review-banner {
+  background-color: white;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url("../../images/reviews/blue-collar_cropped-5.jpg");
+  height: 17vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.review-banner h2 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.review-block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.review-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 27%;
+  color: #4d4d4d;
+  height: 21em;
+}
+
+.review-block h3 {
+  font-size: 3rem;
+}
+
+.review-block blockquote {
+  font-size: 2rem;
+}
+
+.review-block cite {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-title {
+  margin-top: 2em;
+}
+
+.contact-info {
+  font-size: 2.5rem;
+  color: #707070;
+  margin-top: 1em;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contact-form-container {
+  font-size: 2.5rem;
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.contact-form {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 0.7em;
+  grid-column-gap: 3em;
+      grid-template-areas: "label input" "label input" "label input" "label input" "null send-button";
+}
+
+.contact-form label {
+  grid-area: "label";
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="file"],
+.contact-form textarea {
+  grid-area: "input";
+  width: 25em;
+  font-size: 2rem;
+  padding: 0.6em;
+  border-radius: 1px;
+  border: 1px solid #707070;
+}
+
+.contact-form textarea {
+  height: 17rem;
+  font-family: "Nunito";
+}
+
+.contact-form input[type="submit"] {
+  grid-area: "send-button";
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 2.3rem;
+  width: 9em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background-color: #dd9999;
+  color: white;
+  border: none;
+}
+
+.footer-column-side {
+  margin-top: 3em;
+}
+
+.karen-footer-container {
+  background-color: #4d4d4d;
+  color: #acacac;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding-top: 3.7em;
+  padding-bottom: 2em;
+}
+
+.karen-footer-wrapper {
+  padding-left: 3%;
+  padding-right: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 3em;
+}
+
+.karen-footer-wrapper .footer-column {
+  width: 31.3%;
+}
+
+.karen-footer-wrapper h2 {
+  font-size: 5.7rem;
+  font-family: "Playfair Display SC";
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+
+.footer-column-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-column-icons :first-child {
+  margin-left: 0px;
+}
+
+.footer-column-icons a {
+  margin-left: 1.2em;
+}
+
+.footer-column-icons img {
+  height: 2.6em;
+}
+
+.footer-navigation {
+  background-color: lightblue;
+  line-height: 2em;
+}
+
+.footer-navigation li {
+  float: left;
+  list-style-type: none;
+  margin-left: 2em;
+}
+
+.footer-link-element {
+  float: left;
+  list-style-type: none;
+  margin-left: 2em;
+  color: #acacac;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.footer-link-element:hover {
+  cursor: pointer;
+  color: #8b8b8b;
+}
+
+.footer-column-center {
+  float: left;
+  text-align: center;
+  line-height: 2.1em;
+}
+
+.footer-email {
+  margin-bottom: 0.1em;
+}
+
+.footer-copywrite {
+  text-align: center;
+}
+
+.rupertfooter-container {
+  text-align: center;
+  background-color: #2c2c2c;
+  color: #8b8b8b;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 1em;
+}
+
+.pricing-content {
+  margin-top: 1em;
+  font-weight: 500;
+}
+
+.pricing-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

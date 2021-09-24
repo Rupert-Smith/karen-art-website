@@ -1,0 +1,51 @@
+@import "../../assets/styles/scss/partials/variables";
+@import "../../assets/styles/scss/partials/mixins";
+@import "../../assets/styles/scss/partials/functions";
+
+.three-easy-steps-section {
+  background-color: $three-steps-blue;
+  // height: 1000px;
+}
+
+.three-easy-steps-content {
+  display: flex;
+  // margin: auto;
+  margin-top: 7em;
+  justify-content: center;
+}
+
+.steps-title-box {
+  margin-bottom: em(130px);
+}
+
+.smiling-customer {
+  object-fit: cover;
+  height: 600px;
+  overflow: hidden;
+}
+
+.smiling-customer-container {
+  @include photo-shadow;
+  width: 45em;
+  height: 60em;
+  overflow: hidden;
+  margin-bottom: em(130px);
+
+  // margin-left: em(300px);
+}
+
+.step-number-container {
+  margin-left: 9em;
+  display: grid;
+  grid-column-gap: em(75px);
+  grid-template-columns: auto 500px;
+  list-style: none;
+  height: 500px;
+  margin-top: 5em;
+}
+
+.step-content {
+  font-size: $medium-font-size;
+  color: $light-grey;
+  padding-top: 35px;
+}

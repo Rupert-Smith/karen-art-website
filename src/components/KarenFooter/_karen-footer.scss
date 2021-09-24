@@ -1,0 +1,122 @@
+@import "../../assets/styles/scss/partials/variables";
+@import "../../assets/styles/scss/partials/mixins";
+
+.footer-column-side {
+  margin-top: 3em;
+}
+
+.karen-footer-container {
+  background-color: $review-grey;
+  color: $footer-grey;
+  font-size: $medium-font-size;
+  font-weight: 300;
+  padding-top: 3.7em;
+  padding-bottom: 2em;
+}
+
+.karen-footer-wrapper {
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3em;
+
+  .footer-column {
+    width: 31.3%;
+  }
+
+  h2 {
+    @include main-title;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.7em;
+  }
+}
+
+.footer-column-icons {
+  display: flex;
+  justify-content: center;
+  // background-color: lightblue;
+  // align-items: center;
+
+  :first-child {
+    margin-left: 0px;
+  }
+
+  a {
+    margin-left: 1.2em;
+  }
+
+  img {
+    height: 2.6em;
+  }
+}
+
+.footer-column-navigation {
+  // background-color: lightgreen;
+}
+
+.footer-navigation {
+  background-color: lightblue;
+  // width: 40em;
+  line-height: 2em;
+  // display: flex;
+  // justify-content: space-between;
+
+  // :first-child {
+  //   margin-right: 0px;
+  // }
+
+  li {
+    float: left;
+    list-style-type: none;
+    margin-left: 2em;
+  }
+}
+
+.footer-link-element {
+  float: left;
+  list-style-type: none;
+  margin-left: 2em;
+  color: $footer-grey;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-link-element:hover {
+  cursor: pointer;
+  color: $footer-dark-grey-text;
+  // border-bottom: 1px solid red;
+}
+
+// a:link,
+// a:visited {
+//   color: #e67e22;
+//   text-decoration: none;
+//   padding-bottom: 1px;
+//   border-bottom: 1px solid #e67e22;
+//   transition: border-bottom 0.2s, color 0.2s;
+// }
+
+// a:hover,
+// a:active {
+//   color: #555;
+//   border-bottom: 1px solid transparent;
+// }
+
+.footer-column-center {
+  // background-color: lightgoldenrodyellow;
+  float: left;
+  text-align: center;
+  line-height: 2.1em;
+}
+
+.footer-email {
+  margin-bottom: 0.1em;
+}
+
+.footer-copywrite {
+  text-align: center;
+}
+
+.footer-icons-wrapper {
+}

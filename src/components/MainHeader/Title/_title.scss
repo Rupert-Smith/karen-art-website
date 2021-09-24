@@ -1,0 +1,27 @@
+@import "../../../assets/styles/scss/partials/variables";
+@import "../../../assets/styles/scss/partials/mixins";
+@import "../../../assets/styles/scss/partials/functions";
+
+.main-title {
+  @include main-title;
+  font-size: $main-title-size;
+  color: $main-title-color;
+  margin-bottom: em(5px);
+}
+
+.main-subtitle {
+  color: $main-title-color;
+  font-family: $fancy-font;
+  font-size: $main-subtitle-size;
+  font-weight: 400;
+  margin-bottom: em(5px);
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: em(330px);
+  background-color: white;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+@import "../../assets/styles/scss/partials/mixins";
+
+.main-header-container {
+  @include fixed-image;
+  height: 100vh;
+}
+
+.home-dog-hero {
+  background-image: url("../../images/heroes/home-dog-hero-tall-test3.jpg");
+}
+
+.gallery-dog-hero {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
+    url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+}
+
+.prices-dog-hero {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
+    url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+}

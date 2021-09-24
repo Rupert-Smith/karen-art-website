@@ -1,5 +1,5 @@
 import React from "react";
-import "../../assets/styles/css/rupert-footer.css";
+import "../../assets/styles/css/main.css";
 
 function RupertFooter(props) {
   const emoji = require("emoji-dictionary");

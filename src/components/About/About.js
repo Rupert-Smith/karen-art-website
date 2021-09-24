@@ -1,10 +1,10 @@
 import React from "react";
-import "../../assets/styles/css/about.css";
+import "../../assets/styles/css/main.css";
 import karenAbout from "../../assets/images/about/karen-about.jpg";
 
 function About(props) {
   return (
-    <section className="about-container">
+    <section id="about" className="about-container">
       <h2>About</h2>
       <p>
         Hi, I’m Karen and I love drawing peoples pets. For the past 38 years I
