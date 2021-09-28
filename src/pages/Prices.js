@@ -11,7 +11,7 @@ function Home(props) {
   return (
     <Fragment>
       <MainHeader contactId={"prices-contact"} className="prices-dog-hero" />
-      {/* <Pricing /> */}
+      <Pricing />
       <Contact id="prices-contact" />
       <KarenFooter />
       <RupertFooter />

@@ -8,16 +8,25 @@
   @include general-text;
   margin-top: 1em;
   text-align: center;
-  // width: 50%;
   margin-left: 10%;
   margin-right: 10%;
+
+  @include mq(mediumBig) {
+    font-size: 2.2rem;
+  }
+
+  @include mq(smallMedium) {
+    font-size: 2rem;
+  }
+  @include mq(small) {
+    font-size: 1.9rem;
+  }
 }
 
 .contact-form-container {
   @include general-text;
   display: flex;
   flex-direction: column;
-  // background-color: lightblue;
   align-items: center;
   margin-top: 2em;
   justify-content: space-between;
@@ -37,7 +46,17 @@
 
   label {
     grid-area: "label";
-    // margin-right: 6em;
+    // margin-right: 6em
+    @include mq(mediumBig) {
+      font-size: 2.2rem;
+    }
+    @include mq(smallMedium) {
+      font-size: 2rem;
+      grid-column-gap: 1em;
+    }
+    @include mq(small) {
+      font-size: 1.9rem;
+    }
   }
 
   input[type="text"],
@@ -50,6 +69,13 @@
     padding: 0.6em;
     border-radius: 1px;
     border: 1px solid $main-title-color;
+    @include mq(smallMedium) {
+      font-size: 1.7rem;
+      width: 100%;
+    }
+    @include mq(small) {
+      font-size: 1.6rem;
+    }
   }
 
   textarea {
@@ -69,5 +95,8 @@
     background-color: $hero-red;
     color: white;
     border: none;
+    @include mq(smallMedium) {
+      font-size: 2rem;
+    }
   }
 }

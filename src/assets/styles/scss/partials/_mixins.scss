@@ -1,4 +1,5 @@
 @import "./variables";
+@use "sass:map";
 
 @mixin fixed-image {
   background-color: white;
@@ -21,4 +22,12 @@
   font-size: $main-title-size;
   font-family: $fancy-font;
   font-weight: 500;
+}
+
+@mixin mq($key) {
+  $size: map-get($breakpoints, $key);
+
+  @media (max-width: $size) {
+    @content;
+  }
 }

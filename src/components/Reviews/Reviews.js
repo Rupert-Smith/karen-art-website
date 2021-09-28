@@ -9,28 +9,27 @@ function Reviews(props) {
       </div>
       <div className="review-block-container">
         <div className="review-block">
+          <h3>Outstanding</h3>
+          <blockquote>
+            Karen's work is outstanding, I am so happy with the two drawings she
+            has done for me.
+          </blockquote>
+          {/* <cite>Chris Carey</cite> */}
+        </div>
+        <div className="review-block">
+          <h3>Lovely drawing</h3>
+          <blockquote>
+            Karen thank you so much for my lovely drawing of my Ampthill bull.
+            It makes me smile looking at his beautiful face every day x
+          </blockquote>
+          {/* <cite>Lhara Kavanagh</cite> */}
+        </div>
+        <div className="review-block">
           <h3>Amazing!</h3>
           <blockquote>
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Frankie loved her picture! Thanks Karen Reep, amazing!!! x
           </blockquote>
-          <cite>Chris Carey</cite>
-        </div>
-        <div className="review-block">
-          <h3>Wonderful gift</h3>
-          <blockquote>
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </blockquote>
-          <cite>Lhara Kavanagh</cite>
-        </div>
-        <div className="review-block">
-          <h3>Excellent quality</h3>
-          <blockquote>
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </blockquote>
-          <cite>Sam Fitzgerald</cite>
+          {/* <cite>Sam Fitzgerald</cite> */}
         </div>
       </div>
     </section>

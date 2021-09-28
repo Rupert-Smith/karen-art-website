@@ -4,13 +4,14 @@
 
 .three-easy-steps-section {
   background-color: $three-steps-blue;
-  // height: 1000px;
+  // margin: auto;
 }
 
 .three-easy-steps-content {
   display: flex;
   // margin: auto;
   margin-top: 7em;
+
   justify-content: center;
 }
 
@@ -18,34 +19,90 @@
   margin-bottom: em(130px);
 }
 
-.smiling-customer {
-  object-fit: cover;
-  height: 600px;
-  overflow: hidden;
-}
-
 .smiling-customer-container {
   @include photo-shadow;
   width: 45em;
-  height: 60em;
+  // height: 60em;
   overflow: hidden;
-  margin-bottom: em(130px);
+}
 
-  // margin-left: em(300px);
+.smiling-customer {
+  // object-fit: cover;
+  width: 42em;
+  // overflow: hidden;
+  margin-bottom: 9em;
+  @include mq(mediumBig) {
+    width: 31%;
+  }
+  @include mq(mediumLessBig) {
+    width: 32%;
+  }
+  @include mq(medium) {
+    width: 35%;
+  }
 }
 
 .step-number-container {
   margin-left: 9em;
-  display: grid;
-  grid-column-gap: em(75px);
-  grid-template-columns: auto 500px;
-  list-style: none;
-  height: 500px;
-  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5.5em;
+  margin-bottom: em(130px);
+  // }
+
+  @include mq(mediumBig) {
+    margin-left: 4em;
+  }
+
+  @include mq(medium) {
+    margin-left: 3em;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    margin-right: 0.6em;
+  }
 }
 
 .step-content {
   font-size: $medium-font-size;
   color: $light-grey;
-  padding-top: 35px;
+  width: 21em;
+
+  @include mq(mediumBig) {
+    font-size: 2.4rem;
+  }
+  @include mq(mediumLessBig) {
+    font-size: 2.3rem;
+  }
+
+  @include mq(smallMedium) {
+    font-size: 2rem;
+    width: 15em;
+  }
+
+  // padding-top: 1.6em;
+  // white-space: nowrap;
+
+  // width: 40%;\
+}
+
+.inline-link-blue {
+  color: $three-steps-blue-deep;
+}
+
+.step-number {
+  font-size: 6rem;
+  @include mq(mediumBig) {
+    font-size: 5rem;
+  }
+  @include mq(mediumLessBig) {
+    font-size: 4rem;
+  }
+
+  @include mq(small) {
+    font-size: 3rem;
+  }
 }

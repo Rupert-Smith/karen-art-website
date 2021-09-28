@@ -3,7 +3,10 @@ import classes from "./SectionParagraph.module.css";
 
 function SectionParagraph(props) {
   return (
-    <p className={`${classes.sectionParagraph} ${props.className}`}>
+    <p
+      id={props.id}
+      className={`${classes.sectionParagraph} ${props.className}`}
+    >
       {props.children}
     </p>
   );

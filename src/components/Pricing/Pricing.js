@@ -5,18 +5,50 @@ import SectionTitleBox from "../UI/SectionTitleBox/SectionTitleBox";
 import SectionParagraph from "../UI/SectionParagraph/SectionParagraph";
 import "../../assets/styles/css/main.css";
 import pricingImage from "../../assets/images/pricing/dog6.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
+
+const emoji = require("emoji-dictionary");
+// const bone = emoji.getUnicode("bone");
+// const pawPrints = emoji.getUnicode("paw_prints");
+// const dog = emoji.getUnicode("dog");
+const dog2 = emoji.getUnicode("dog2");
+// const pencil = emoji.getUnicode("pencil2");
+const paper = emoji.getUnicode("page_with_curl");
+const box = emoji.getUnicode("package");
+const calendar = emoji.getUnicode("calendar");
+const memo = emoji.getUnicode("memo");
 
 function Pricing(props) {
   return (
-    <Section>
+    <Section id="pricing">
       <SectionTitleBox>
         <SectionTitle>How much will my portrait cost?</SectionTitle>
       </SectionTitleBox>
       <div className="pricing-wrapper">
-        <SectionParagraph className="pricing-content">
-          I charge between £100 to £120 per portrait on good quality A3 paper.
-          Postage is 1st class recorded delivery at £10 I can take orders up to
-          1 year in advance
+        <SectionParagraph id="pricing-paragraph">
+          {dog2} I charge between <strong>£100 to £120</strong> per portrait
+          <br />
+          {paper} I use <strong>good quality A3 paper</strong>
+          <br />
+          {box} Postage is <strong>1st class</strong> recorded delivery at{" "}
+          <strong>£10</strong>
+          <br /> {calendar} I can take orders up to{" "}
+          <strong>1 year in advance</strong>
+          <br />
+          {memo} If you would like a quote, simply{" "}
+          <strong>
+            fill out the{" "}
+            <Link
+              className="inline-link inline-link-blue"
+              to="contact"
+              smooth={true}
+              duration={500}
+            >
+              <strong>form</strong>
+            </Link>{" "}
+            below
+          </strong>
+          !
         </SectionParagraph>
         <img src={pricingImage} />
       </div>

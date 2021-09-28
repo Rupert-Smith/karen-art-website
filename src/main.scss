@@ -6,6 +6,8 @@
 
 @import "./components/About/about";
 
+@import "./assets/styles/scss/index/index";
+
 @import "./components/Welcome/welcome";
 
 @import "./components/Carousel/carousel.scss";
@@ -21,3 +23,17 @@
 @import "./components/RupertFooter/rupert-footer";
 
 @import "./components/Pricing/pricing";
+
+@import "./components/Gallery/gallery-photos";
+
+@import "./components/Gallery/BlackAndWhiteGallery/black-and-white-gallery";
+
+@import "./components/Gallery/ColorGallery/color-gallery";
+
+@import "./components/Gallery/PortraitsWithYou/portraits-with-you";
+
+@import "./components/Gallery/OtherPets/other-pets";
+
+@import "./components/UI/SectionTitle/section-title";
+
+@import "./components/MobileNavigation/mobile-navigation";

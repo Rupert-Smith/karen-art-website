@@ -3,6 +3,10 @@
 
 .footer-column-side {
   margin-top: 3em;
+
+  // @include mq(mediumBig) {
+  //   margin-top: 5em;
+  // }
 }
 
 .karen-footer-container {
@@ -12,6 +16,10 @@
   font-weight: 300;
   padding-top: 3.7em;
   padding-bottom: 2em;
+
+  @include mq(mediumBig) {
+    font-size: 2rem;
+  }
 }
 
 .karen-footer-wrapper {
@@ -20,6 +28,11 @@
   display: flex;
   justify-content: space-around;
   padding-bottom: 3em;
+
+  @include mq(mediumLessBig) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 
   .footer-column {
     width: 31.3%;
@@ -30,14 +43,20 @@
     color: white;
     text-align: center;
     margin-bottom: 0.7em;
+
+    @include mq(mediumBig) {
+      font-size: 4.6rem;
+    }
+    @include mq(small) {
+      font-size: 4.6rem;
+      // margin-bottom: 3em;
+    }
   }
 }
 
 .footer-column-icons {
   display: flex;
   justify-content: center;
-  // background-color: lightblue;
-  // align-items: center;
 
   :first-child {
     margin-left: 0px;
@@ -48,24 +67,20 @@
   }
 
   img {
-    height: 2.6em;
+    width: 2.6em;
+    @include mq(mediumLessBig) {
+      width: 2.4em;
+    }
+    @include mq(medium) {
+      width: 2.1em;
+    }
   }
-}
-
-.footer-column-navigation {
-  // background-color: lightgreen;
 }
 
 .footer-navigation {
   background-color: lightblue;
-  // width: 40em;
-  line-height: 2em;
-  // display: flex;
-  // justify-content: space-between;
 
-  // :first-child {
-  //   margin-right: 0px;
-  // }
+  line-height: 2em;
 
   li {
     float: left;
@@ -85,26 +100,9 @@
 .footer-link-element:hover {
   cursor: pointer;
   color: $footer-dark-grey-text;
-  // border-bottom: 1px solid red;
 }
 
-// a:link,
-// a:visited {
-//   color: #e67e22;
-//   text-decoration: none;
-//   padding-bottom: 1px;
-//   border-bottom: 1px solid #e67e22;
-//   transition: border-bottom 0.2s, color 0.2s;
-// }
-
-// a:hover,
-// a:active {
-//   color: #555;
-//   border-bottom: 1px solid transparent;
-// }
-
 .footer-column-center {
-  // background-color: lightgoldenrodyellow;
   float: left;
   text-align: center;
   line-height: 2.1em;

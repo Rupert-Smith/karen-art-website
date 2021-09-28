@@ -5,6 +5,7 @@ import smilingCustomer from "../../assets/images/portrait-with-customer/smiling-
 import "../../assets/styles/css/main.css";
 import Section from "../UI/Section/Section";
 import StepNumber from "../UI/StepNumber/StepNumber";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function ThreeEasySteps() {
   return (
@@ -13,24 +14,41 @@ function ThreeEasySteps() {
         <SectionTitle>How to commission your pet: 3 easy steps</SectionTitle>
       </SectionTitleBox>
       <div className="three-easy-steps-content">
-        <div className="smiling-customer-container">
-          <img className="smiling-customer" src={smilingCustomer}></img>
+        {/* <div className="smiling-customer-container"> */}
+        <img className="smiling-customer" src={smilingCustomer}></img>
+        {/* </div> */}
+        <div className="step-number-container">
+          <div>
+            {" "}
+            <StepNumber className="step-number">1</StepNumber>
+            <p className="step-content">
+              <Link
+                className="inline-link inline-link-blue"
+                smooth={true}
+                duration={500}
+                to="contact"
+              >
+                <strong>Email Karen</strong>
+              </Link>{" "}
+              with a picture of your pet.
+            </p>
+          </div>
+          <div>
+            {" "}
+            <StepNumber className="step-number">2</StepNumber>
+            <p className="step-content">
+              Karen will create a handcrafted, one-of-a-kind portrait for you.
+            </p>
+          </div>
+          <div>
+            {" "}
+            <StepNumber className="step-number">3</StepNumber>
+            <p className="step-content">
+              Hang your finished portrait on your wall, a timeless memory
+              captured on canvas.
+            </p>
+          </div>
         </div>
-        <ul className="step-number-container">
-          <StepNumber className="step-number">1</StepNumber>
-          <p className="step-content">
-            <a>Email Karen</a> with a picture of your pet.
-          </p>
-          <StepNumber className="step-number">2</StepNumber>
-          <p className="step-content">
-            Karen will create a handcrafted, one-of-a-kind portrait for you.
-          </p>
-          <StepNumber className="step-number">3</StepNumber>
-          <p className="step-content">
-            Hang your finished portrait on your wall, a timeless memory captured
-            on canvas.
-          </p>
-        </ul>
       </div>
     </Section>
   );

@@ -31,23 +31,50 @@ class Carousel extends React.Component {
       speed: 500,
       focusOnSelect: true,
 
+      // responsive: [
+      //   {
+      //     breakpoint: 1068,
+      //     settings: {
+      //       slidesToShow: 1,
+      //       centerPadding: "0px",
+      //       slidesToScroll: 1,
+      //       initialSlide: 3,
+      //     },
+      //   },
+      // ],
+
       responsive: [
         {
-          breakpoint: 768,
+          breakpoint: 1000,
           settings: {
             slidesToShow: 1,
             centerPadding: "0px",
             slidesToScroll: 1,
-            initialSlide: 3,
+            initialSlide: 2,
           },
         },
-      ],
-
-      responsive: [
         {
-          breakpoint: 600,
+          breakpoint: 1300,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
+            centerPadding: "40px",
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 2,
+            centerPadding: "80px",
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 1800,
+          settings: {
+            slidesToShow: 3,
             centerPadding: "0px",
             slidesToScroll: 1,
             initialSlide: 2,

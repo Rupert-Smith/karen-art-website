@@ -1,11 +1,9 @@
 import React from "react";
-import classes from "./SectionTitle.module.css";
+import "../../../assets/styles/css/main.css";
 
 function SectionTitle(props) {
   return (
-    <h2
-      className={`${classes.sectionTitle} ${props.className}`}
-    >{`${props.children}`}</h2>
+    <h2 className={`sectionTitle ${props.className}`}>{`${props.children}`}</h2>
   );
 }
 

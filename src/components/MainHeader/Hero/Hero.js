@@ -46,11 +46,11 @@ const Hero = (props) => {
         <Route path="/gallery">
           <div className="hero-text-box hero-text-box-nothome">
             <h2 className="hero-title">Gallery</h2>
-            <NavLink to="/#gallerypictures">
+            <Link to="gallery-photos" smooth={true} duration={500}>
               <LinkButton className="hero-link-button link-button-gallery-full">
                 View gallery
               </LinkButton>
-            </NavLink>
+            </Link>
           </div>
         </Route>
         <Route path="/prices">
@@ -59,6 +59,11 @@ const Hero = (props) => {
             <Link to="contact" smooth={true} duration={500}>
               <LinkButton className="hero-link-button link-button-prices-full">
                 Ask for a quote
+              </LinkButton>
+            </Link>
+            <Link to="pricing" smooth={true} duration={500}>
+              <LinkButton className="hero-link-button link-button-prices-ghost">
+                See pricing
               </LinkButton>
             </Link>
           </div>

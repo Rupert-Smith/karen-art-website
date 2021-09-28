@@ -7,6 +7,10 @@
   position: absolute;
   // float: left;
 
+  @include mq(tinySmall) {
+    margin-top: 82em;
+  }
+
   :first-child {
     margin-left: 0px;
   }
@@ -19,6 +23,9 @@
   }
 
   img {
-    height: em(50px);
+    width: em(50px);
+    @include mq(small) {
+      width: 3em;
+    }
   }
 }
