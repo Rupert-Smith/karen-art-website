@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import "../../assets/styles/css/carousel.css";
+import "../../assets/styles/css/main.css";
 
 import dogOne from "../../assets/images/carousel/dog1.jpg";
 import dogTwo from "../../assets/images/carousel/dog2.jpg";
@@ -45,9 +45,18 @@ class Carousel extends React.Component {
 
       responsive: [
         {
-          breakpoint: 1000,
+          breakpoint: 800,
           settings: {
             slidesToShow: 1,
+            centerPadding: "0px",
+            slidesToScroll: 1,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 2,
             centerPadding: "0px",
             slidesToScroll: 1,
             initialSlide: 2,

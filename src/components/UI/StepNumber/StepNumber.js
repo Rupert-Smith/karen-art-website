@@ -1,11 +1,9 @@
 import React from "react";
-import classes from "./StepNumber.module.css";
+import "../../../assets/styles/css/main.css";
 
 function StepNumber(props) {
   return (
-    <div className={`${classes.stepNumber} ${props.className}`}>
-      {props.children}
-    </div>
+    <div className={`stepNumber ${props.className}`}>{props.children}</div>
   );
 }
 

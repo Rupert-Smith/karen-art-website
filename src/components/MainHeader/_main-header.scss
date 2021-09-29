@@ -56,6 +56,36 @@
     url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
     url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+  @include mq(small) {
+    background-image: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../../images/heroes/gallery-dog-hero-tall-test3.jpg");
+    background-image: linear-gradient(
+        rgba(61, 28, 28, 0.14),
+        rgba(0, 0, 0, 0.14)
+      ),
+      url("../../images/heroes/gallery-dog-hero-tall-test3.jpg");
+    background-size: 130em;
+    background-position: 45% 100%;
+    background-repeat: no-repeat;
+  }
+  @include mq(tinySmall) {
+    background-image: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../../images/heroes/gallery-dog-hero-tall-test4.jpg");
+    background-image: linear-gradient(
+        rgba(61, 28, 28, 0.14),
+        rgba(0, 0, 0, 0.14)
+      ),
+      url("../../images/heroes/gallery-dog-hero-tall-test4.jpg");
+
+    background-size: 70em;
+    background-position: 50% 100%;
+  }
 }
 
 .prices-dog-hero {
@@ -78,5 +108,25 @@
         rgba(0, 0, 0, 0.14)
       ),
       url("../../images/heroes/prices-dog-hero-tall-test8.jpg");
+
+    background-size: 130em;
+    background-position: 45% 100%;
+    background-repeat: no-repeat;
+  }
+
+  @include mq(tinySmall) {
+    background-image: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../../images/heroes/prices-dog-hero-tall-test10.jpg");
+    background-image: linear-gradient(
+        rgba(61, 28, 28, 0.14),
+        rgba(0, 0, 0, 0.14)
+      ),
+      url("../../images/heroes/prices-dog-hero-tall-test10.jpg");
+
+    background-size: 65em;
+    background-position: 50% 100%;
   }
 }

@@ -14,9 +14,9 @@ function ThreeEasySteps() {
         <SectionTitle>How to commission your pet: 3 easy steps</SectionTitle>
       </SectionTitleBox>
       <div className="three-easy-steps-content">
-        {/* <div className="smiling-customer-container"> */}
-        <img className="smiling-customer" src={smilingCustomer}></img>
-        {/* </div> */}
+        <div className="smiling-customer-container">
+          <img className="smiling-customer" src={smilingCustomer}></img>
+        </div>
         <div className="step-number-container">
           <div>
             {" "}

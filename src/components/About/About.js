@@ -24,6 +24,7 @@ function About(props) {
   return (
     <section id="about" className="about-container">
       <h2>About</h2>
+
       <p>
         Hi, I’m Karen and I love drawing peoples pets. For the past 38 years I
         have worked as a Paediatric nurse at Addenbrookes, Great Ormond street

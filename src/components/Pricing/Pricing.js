@@ -25,32 +25,46 @@ function Pricing(props) {
         <SectionTitle>How much will my portrait cost?</SectionTitle>
       </SectionTitleBox>
       <div className="pricing-wrapper">
+        <img className="pricing-image-mobile" src={pricingImage} />
         <SectionParagraph id="pricing-paragraph">
-          {dog2} I charge between <strong>£100 to £120</strong> per portrait
-          <br />
-          {paper} I use <strong>good quality A3 paper</strong>
-          <br />
-          {box} Postage is <strong>1st class</strong> recorded delivery at{" "}
-          <strong>£10</strong>
-          <br /> {calendar} I can take orders up to{" "}
-          <strong>1 year in advance</strong>
-          <br />
-          {memo} If you would like a quote, simply{" "}
-          <strong>
-            fill out the{" "}
-            <Link
-              className="inline-link inline-link-blue"
-              to="contact"
-              smooth={true}
-              duration={500}
-            >
-              <strong>form</strong>
-            </Link>{" "}
-            below
-          </strong>
-          !
+          <ul>
+            {" "}
+            <li>
+              {dog2} I charge between <strong>£100 to £120</strong> per portrait
+            </li>
+            <li>
+              {" "}
+              {paper} I use <strong>good quality A3 paper</strong>
+            </li>
+            <li>
+              {" "}
+              {box} Postage is <strong>1st class</strong> recorded delivery at{" "}
+              <strong>£10</strong>
+            </li>
+            <li>
+              {calendar} I can take orders up to{" "}
+              <strong>1 year in advance</strong>
+            </li>
+            <li>
+              {" "}
+              {memo} If you would like a quote, simply{" "}
+              <strong>
+                fill out the{" "}
+                <Link
+                  className="inline-link inline-link-blue"
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                >
+                  <strong>form</strong>
+                </Link>{" "}
+                below
+              </strong>
+              !
+            </li>
+          </ul>
         </SectionParagraph>
-        <img src={pricingImage} />
+        <img className="pricing-image" src={pricingImage} />
       </div>
     </Section>
   );

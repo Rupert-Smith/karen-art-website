@@ -43,6 +43,15 @@
     "label input"
     "label input"
     "null send-button";
+  @include mq(tinySmall) {
+    grid-column-gap: 2em;
+    grid-template-areas:
+      "input"
+      "input"
+      "input"
+      "input"
+      "send-button";
+  }
 
   label {
     grid-area: "label";
@@ -56,6 +65,9 @@
     }
     @include mq(small) {
       font-size: 1.9rem;
+    }
+    @include mq(tinySmall) {
+      display: none;
     }
   }
 
@@ -75,6 +87,10 @@
     }
     @include mq(small) {
       font-size: 1.6rem;
+    }
+    @include mq(tiny) {
+      width: 90%;
+      margin: auto;
     }
   }
 
@@ -97,6 +113,10 @@
     border: none;
     @include mq(smallMedium) {
       font-size: 2rem;
+    }
+    @include mq(tiny) {
+      font-size: 1.9rem;
+      margin: auto;
     }
   }
 }

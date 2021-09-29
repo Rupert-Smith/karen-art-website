@@ -3,7 +3,7 @@ import "../../assets/styles/css/main.css";
 
 function Reviews(props) {
   return (
-    <section>
+    <section className="review-section">
       <div className="review-banner">
         <h2>Reviews</h2>
       </div>

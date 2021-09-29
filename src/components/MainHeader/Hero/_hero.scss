@@ -54,31 +54,22 @@
 
   @include mq(tinySmall) {
     left: auto;
-    // margin-left: 40%;
-    // margin-right: 50%;
     text-align: center;
     width: 40em;
     margin: auto;
-    // align-items: center;
+
     top: 18%;
-    // display: flex;
-    // flex-direction: column;
   }
 
   @include mq(tinylessSmall) {
     left: auto;
-    width: 40em;
+    width: 35em;
+    top: 18%;
     gap: 1.8em;
     align-items: center;
     justify-content: center;
-    top: 15%;
     display: flex;
     flex-direction: column;
-  }
-
-  @include mq(tinylessSmall) {
-    width: 35em;
-    top: 18%;
   }
 }
 
@@ -93,6 +84,26 @@
 
   @include mq(medium) {
     width: 50em;
+  }
+
+  @include mq(tinySmall) {
+    left: auto;
+    text-align: center;
+    width: 45em;
+    margin: auto;
+
+    top: 18%;
+  }
+
+  @include mq(tinylessSmall) {
+    left: auto;
+    width: 35em;
+    top: 18%;
+    gap: 1.8em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -151,6 +162,12 @@
 
   @include mq(medium) {
     font-size: 10rem;
+  }
+  @include mq(small) {
+    font-size: 8rem;
+  }
+  @include mq(tinySmall) {
+    font-size: 7rem;
   }
 }
 

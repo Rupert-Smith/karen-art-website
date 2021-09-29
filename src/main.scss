@@ -10,7 +10,7 @@
 
 @import "./components/Welcome/welcome";
 
-@import "./components/Carousel/carousel.scss";
+@import "./components/Carousel/carousel";
 
 @import "./components/ThreeEasySteps/three-easy-steps";
 
@@ -35,5 +35,9 @@
 @import "./components/Gallery/OtherPets/other-pets";
 
 @import "./components/UI/SectionTitle/section-title";
+
+@import "./components/UI/SectionTitleBox/section-title-box";
+
+@import "./components/UI/StepNumber/step-number";
 
 @import "./components/MobileNavigation/mobile-navigation";

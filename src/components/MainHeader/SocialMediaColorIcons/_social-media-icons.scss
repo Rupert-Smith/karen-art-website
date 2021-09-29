@@ -8,7 +8,10 @@
   // float: left;
 
   @include mq(tinySmall) {
-    margin-top: 82em;
+    // margin-top: 10em;
+    bottom: 0;
+    margin-bottom: 1em;
+    // margin-top: 82em;
   }
 
   :first-child {

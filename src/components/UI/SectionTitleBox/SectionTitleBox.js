@@ -1,12 +1,9 @@
 import React from "react";
-import classes from "./SectionTitleBox.module.css";
+import "../../../assets/styles/css/main.css";
 
 function SectionTitleBox(props) {
   return (
-    <div
-      id={props.id}
-      className={`${classes.sectionTitleBox} ${props.className}`}
-    >
+    <div id={props.id} className={`sectionTitleBox ${props.className}`}>
       {props.children}
     </div>
   );
