@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navigation from "./Navigation/Navigation";
 import Title from "./Title/Title";
 import MobileNavigation from "../MobileNavigation/MobileNavigation";
@@ -9,12 +9,26 @@ import Route from "react-router-dom";
 const MainHeader = (props) => {
   const classes = "main-header-container " + props.className;
 
+  const [showMenu, setShowMenu] = useState(false);
+
+  React.useEffect(() => {
+    function handleResize() {
+      setShowMenu(false);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return (_) => {
+      window.removeEventListener("resize", handleResize);
+    };
+  });
+
   return (
     <header className={classes}>
       <SocialMediaColorIcons />
-      <Title />
+      <Title showHamburger={showMenu} showHamburgerFunction={setShowMenu} />
       <Navigation contactId={props.contactId} />
-      <MobileNavigation />
+      {showMenu ? <MobileNavigation /> : ""}
+
       <Hero />
     </header>
   );
