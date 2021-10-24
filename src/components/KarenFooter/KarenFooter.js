@@ -42,7 +42,7 @@ function KarenFooter() {
       </nav>
       <h2 className="footer-heading">Karen Reep Art</h2>
       <div className="footer-contact">
-        <div className="footer-email">Email: karenart@gmail.com</div>
+        <div className="footer-email">Email: karenreep1234@icloud.com</div>
         <div className="footer-phone-number">Phone: 07944 872769</div>
       </div>
       <div className="footer-icons side-column">
