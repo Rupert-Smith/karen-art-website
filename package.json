@@ -1,7 +1,6 @@
 {
   "name": "karen-art-website",
   "version": "0.1.0",
-  "homepage": "https://rupertwebdev.github.io/karen-art-website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
