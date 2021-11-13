@@ -5,6 +5,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Fade from "react-reveal/Fade";
 
 const Hero = (props) => {
   const classes = props.className;
@@ -27,21 +28,24 @@ const Hero = (props) => {
     <div className={classes}>
       <div className="hero-text-box-container">
         <Route path="/" exact>
-          <div className="hero-text-box hero-text-box-home">
-            <h2 className="hero-tagline">
-              Capture your pet with a <br></br>custom pencil portrait
-            </h2>
-            <NavLink to="/#contact">
-              <LinkButton className="hero-link-button link-button-home-full">
-                Draw my pet
-              </LinkButton>
-            </NavLink>
-            <NavLink to="/#welcome">
-              <LinkButton className="hero-link-button link-button-home-ghost">
-                Show me more
-              </LinkButton>
-            </NavLink>
-          </div>
+          <Fade>
+            <div className="hero-text-box hero-text-box-home">
+              <h2 className="hero-tagline">
+                Capture your pet with a <br></br>custom pencil portrait
+              </h2>
+              <NavLink to="/#contact">
+                <LinkButton className="hero-link-button link-button-home-full">
+                  Draw my pet
+                </LinkButton>
+              </NavLink>
+              <NavLink to="/#welcome">
+                <LinkButton className="hero-link-button link-button-home-ghost">
+                  Show me more
+                </LinkButton>
+              </NavLink>
+            </div>
+          </Fade>
+          ``
         </Route>
         <Route path="/gallery">
           <div className="hero-text-box hero-text-box-nothome">
