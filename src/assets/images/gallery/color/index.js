@@ -11,6 +11,7 @@ const COLORIMAGES = {
   image10: require("./color-10.jpg").default,
   image11: require("./color-11.jpg").default,
   image12: require("./color-12.jpg").default,
+  image13: require("./color-13.jpg").default,
 };
 
 export default COLORIMAGES;

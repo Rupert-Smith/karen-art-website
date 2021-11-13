@@ -1,4 +1,5 @@
 @import "../../assets/styles/scss/partials/mixins";
+@import "../../assets/styles/scss/partials/variables";
 
 .main-header-container {
   @include fixed-image;
@@ -38,35 +39,39 @@
   // }
 }
 
+// ----------------- HOME HERO --------------------
+
 .home-dog-hero {
-  background-image: url("../../images/heroes/home-dog-hero-tall-test3.jpg");
+  background-image: $bigHomeHero;
   @include mq(small) {
-    background-image: url("../../images/heroes/home-dog-hero-tall-test4.jpg");
+    background-image: $mediumHomeHero;
   }
   @include mq(tinySmall) {
-    background-image: url("../../images/heroes/home-dog-hero-tall-mobile4.jpg");
+    background-image: $mobileHomeHero;
   }
 }
+
+// ----------------- GALLERY HERO --------------------
 
 .gallery-dog-hero {
   background-image: -webkit-linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+    $bigGalleryHero;
   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
-    url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+    $bigGalleryHero;
   @include mq(small) {
     background-image: -webkit-linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
-      url("../../images/heroes/gallery-dog-hero-tall-test3.jpg");
+      $mediumGalleryHero;
     background-image: linear-gradient(
         rgba(61, 28, 28, 0.14),
         rgba(0, 0, 0, 0.14)
       ),
-      url("../../images/heroes/gallery-dog-hero-tall-test3.jpg");
+      $mediumGalleryHero;
     background-size: 130em;
     background-position: 45% 100%;
     background-repeat: no-repeat;
@@ -76,38 +81,40 @@
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
-      url("../../images/heroes/gallery-dog-hero-tall-test4.jpg");
+      $mobileGalleryHero;
     background-image: linear-gradient(
         rgba(61, 28, 28, 0.14),
         rgba(0, 0, 0, 0.14)
       ),
-      url("../../images/heroes/gallery-dog-hero-tall-test4.jpg");
+      $mobileGalleryHero;
 
     background-size: 70em;
     background-position: 50% 100%;
   }
 }
 
+// ----------------- PRICES HERO --------------------
+
 .prices-dog-hero {
   background-image: -webkit-linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+    $bigPricesHero;
   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
-    url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+    $bigPricesHero;
 
   @include mq(small) {
     background-image: -webkit-linear-gradient(
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
-      url("../../images/heroes/prices-dog-hero-tall-test8.jpg");
+      $mediumPricesHero;
     background-image: linear-gradient(
         rgba(61, 28, 28, 0.14),
         rgba(0, 0, 0, 0.14)
       ),
-      url("../../images/heroes/prices-dog-hero-tall-test8.jpg");
+      $mediumPricesHero;
 
     background-size: 130em;
     background-position: 45% 100%;
@@ -119,12 +126,12 @@
         rgba(0, 0, 0, 0.7),
         rgba(0, 0, 0, 0.7)
       ),
-      url("../../images/heroes/prices-dog-hero-tall-test10.jpg");
+      $mobilePricesHero;
     background-image: linear-gradient(
         rgba(61, 28, 28, 0.14),
         rgba(0, 0, 0, 0.14)
       ),
-      url("../../images/heroes/prices-dog-hero-tall-test10.jpg");
+      $mobilePricesHero;
 
     background-size: 65em;
     background-position: 50% 100%;

@@ -64,6 +64,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@use "sass:map";
 @use "sass:map";
 @use "sass:map";
 .main-header-container {
@@ -113,30 +116,30 @@
 }
 
 .home-dog-hero {
-  background-image: url("../../images/heroes/home-dog-hero-tall-test3.jpg");
+  background-image: url("../../images/heroes/home-dog-hero-big.jpg");
 }
 
 @media (max-width: 768px) {
   .home-dog-hero {
-    background-image: url("../../images/heroes/home-dog-hero-tall-test4.jpg");
+    background-image: url("../../images/heroes/home-dog-hero-medium.jpg");
   }
 }
 
 @media (max-width: 550px) {
   .home-dog-hero {
-    background-image: url("../../images/heroes/home-dog-hero-tall-mobile4.jpg");
+    background-image: url("../../images/heroes/home-dog-hero-mobile.jpg");
   }
 }
 
 .gallery-dog-hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
-  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-tall-test2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-big.jpg");
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-big.jpg");
 }
 
 @media (max-width: 768px) {
   .gallery-dog-hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-tall-test3.jpg");
-    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-tall-test3.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-medium.jpg");
+    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-medium.jpg");
     background-size: 130em;
     background-position: 45% 100%;
     background-repeat: no-repeat;
@@ -145,22 +148,22 @@
 
 @media (max-width: 550px) {
   .gallery-dog-hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-tall-test4.jpg");
-    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-tall-test4.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/gallery-dog-hero-mobile.jpg");
+    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/gallery-dog-hero-mobile.jpg");
     background-size: 70em;
     background-position: 50% 100%;
   }
 }
 
 .prices-dog-hero {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
-  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-tall-test7.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-big.jpg");
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-big.jpg");
 }
 
 @media (max-width: 768px) {
   .prices-dog-hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-tall-test8.jpg");
-    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-tall-test8.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-medium.jpg");
+    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-medium.jpg");
     background-size: 130em;
     background-position: 45% 100%;
     background-repeat: no-repeat;
@@ -169,8 +172,8 @@
 
 @media (max-width: 550px) {
   .prices-dog-hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-tall-test10.jpg");
-    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-tall-test10.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(61, 28, 28, 0.14)), to(rgba(0, 0, 0, 0.14))), url("../../images/heroes/prices-dog-hero-mobile.jpg");
+    background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)), url("../../images/heroes/prices-dog-hero-mobile.jpg");
     background-size: 65em;
     background-position: 50% 100%;
   }
@@ -1510,7 +1513,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("../../images/reviews/blue-collar_cropped-5.jpg");
+  background-image: url("../../images/reviews/blue-collar-big.jpg");
   height: 17vh;
   text-align: center;
   display: -webkit-box;
@@ -1527,7 +1530,7 @@ body {
 
 @media (max-width: 768px) {
   .review-banner {
-    background-image: url("../../images/reviews/blue-collar.jpg");
+    background-image: url("../../images/reviews/blue-collar-mobile.jpg");
     background-position: 30% 10%;
     background-size: 155%;
     background-repeat: no-repeat;

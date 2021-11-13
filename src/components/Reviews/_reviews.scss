@@ -10,7 +10,7 @@
 
 .review-banner {
   @include fixed-image;
-  background-image: url("../../images/reviews/blue-collar_cropped-5.jpg");
+  background-image: url("../../images/reviews/blue-collar-big.jpg");
 
   height: 17vh;
   text-align: center;
@@ -18,7 +18,7 @@
   justify-content: center;
   flex-direction: column;
   @include mq(small) {
-    background-image: url("../../images/reviews/blue-collar.jpg");
+    background-image: url("../../images/reviews/blue-collar-mobile.jpg");
     background-position: 30% 10%;
     background-size: 155%;
     background-repeat: no-repeat;
