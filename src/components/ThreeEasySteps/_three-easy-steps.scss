@@ -4,7 +4,6 @@
 
 .three-easy-steps-section {
   background-color: $three-steps-blue;
-  // margin: auto;
 
   @include mq(tinyMoreSmall) {
     flex-direction: column;
