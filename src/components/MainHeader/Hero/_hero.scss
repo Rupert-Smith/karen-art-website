@@ -15,6 +15,7 @@
 .hero-text-box {
   position: absolute;
   // width: 20em;
+
   // right: 53%;
   transform: translate(-10%, 10%);
 
@@ -110,6 +111,7 @@
 .hero-tagline {
   color: $hero-grey;
   font-weight: 200;
+    font-family: $fancy-font;
 
   width: 100%;
   // font-size: em(95px);

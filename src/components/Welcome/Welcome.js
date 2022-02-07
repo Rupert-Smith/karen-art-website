@@ -2,6 +2,7 @@ import React from "react";
 import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import SectionTitleBox from "../UI/SectionTitleBox/SectionTitleBox";
 import "../../assets/styles/css/main.css";
+// import classes from "./_welcome.module.scss"
 import Section from "../UI/Section/Section";
 import SectionParagraph from "../UI/SectionParagraph/SectionParagraph";
 import { Link, animateScroll as scroll } from "react-scroll";

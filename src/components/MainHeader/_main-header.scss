@@ -2,34 +2,31 @@
 @import "../../assets/styles/scss/partials/variables";
 
 .main-header-container {
+  background-repeat: no-repeat;
   @include fixed-image;
   height: 100vh;
 
   @include mq(mediumBig) {
     background-position: 35% 0%;
-    background-repeat: no-repeat;
   }
 
   @include mq(medium) {
     background-position: 35% 0%;
-    background-repeat: no-repeat;
   }
 
   @include mq(small) {
     background-size: 200%;
     background-position: 45% -0%;
-    background-repeat: no-repeat;
   }
 
   @include mq(tinySmall) {
+    background-color: red;
     background-size: 100%;
     background-position: 100% 80%;
-    background-repeat: no-repeat;
   }
 
   @include mq(tinylessSmall) {
     background-position: 50% 86%;
-    background-repeat: no-repeat;
   }
 
   // @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {

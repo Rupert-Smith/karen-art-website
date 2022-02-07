@@ -9,6 +9,7 @@ const PORTRAITSWITHYOU = {
   image8: require("./customer-8.jpg").default,
   image9: require("./customer-9.jpg").default,
   image10: require("./customer-10.jpg").default,
+    image11: require("./customer-11.jpg").default,
   // image11: require("./customer-11.jpg").default,
   // image12: require("./customer-12.jpg").default,
 };
