@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
 import Prices from "./pages/Prices";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (

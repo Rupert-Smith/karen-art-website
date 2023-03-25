@@ -13,8 +13,8 @@ import RupertFooter from "../components/RupertFooter/RupertFooter";
 
 function Home(props) {
   return (
-    <Fragment>
-      <MainHeader className="home-dog-hero" />
+    <>
+      <MainHeader propsClassName="home-dog-hero" />
       <Welcome />
       <Carousel />
       <ThreeEasySteps />
@@ -23,7 +23,7 @@ function Home(props) {
       <Contact id="home-contact" />
       <KarenFooter />
       <RupertFooter />
-    </Fragment>
+    </>
   );
 }
 

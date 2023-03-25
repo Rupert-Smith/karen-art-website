@@ -12,7 +12,7 @@ const Title = (props) => {
           props.showHamburgerFunction(!props.showHamburger);
         }}
       >
-        <ion-icon name="menu-outline"></ion-icon>
+        {/* <ion-icon name="menu-outline"></ion-icon> */}
       </nav>
     </div>
   );

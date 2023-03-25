@@ -2332,4 +2332,4 @@ body {
   border: #bebebe solid 0.5px;
   color: white;
 }
-/*# sourceMappingURL=main.css.map */
+# sourceMappingURL=main.css.map

@@ -5,30 +5,28 @@ import MobileNavigation from "../MobileNavigation/MobileNavigation";
 import Hero from "./Hero/Hero";
 import SocialMediaColorIcons from "./SocialMediaColorIcons/SocialMediaColorIcons";
 import Route from "react-router-dom";
+import styles from "./_mainHeader.module.scss";
 
-const MainHeader = (props) => {
-  const classes = "main-header-container " + props.className;
-
+const MainHeader = ({ propsClassName, contactId }) => {
   const [showMenu, setShowMenu] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     function handleResize() {
       setShowMenu(false);
     }
 
     window.addEventListener("resize", handleResize);
-    return (_) => {
+    return () => {
       window.removeEventListener("resize", handleResize);
     };
   });
 
   return (
-    <header className={classes}>
+    <header className={`${propsClassName} main-header-container`}>
       <SocialMediaColorIcons />
       <Title showHamburger={showMenu} showHamburgerFunction={setShowMenu} />
-      <Navigation contactId={props.contactId} />
+      <Navigation contactId={contactId} />
       {showMenu ? <MobileNavigation /> : ""}
-
       <Hero />
     </header>
   );

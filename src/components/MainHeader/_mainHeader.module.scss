@@ -1,0 +1,135 @@
+@import "../../assets/styles/scss/partials/mixins";
+@import "../../assets/styles/scss/partials/constants";
+
+.main-header-container {
+  background-repeat: no-repeat;
+  @include fixed-image;
+  height: 100vh;
+
+  // @include mq(mediumBig) {
+  //   background-position: 35% 0%;
+  // }
+
+  // @include mq(medium) {
+  //   background-position: 35% 0%;
+  // }
+
+  // @include mq(small) {
+  //   background-size: 200%;
+  //   background-position: 45% -0%;
+  // }
+
+  // @include mq(tinySmall) {
+  //   background-size: 100%;
+  //   background-position: 100% 80%;
+  // }
+
+  // @include mq(tinylessSmall) {
+  //   background-position: 50% 86%;
+  // }
+
+  // @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+  //   background-size: 238%;
+  //   background-position: 45% -0%;
+  //   background-repeat: no-repeat;
+  // }
+}
+
+// // ----------------- HOME HERO --------------------
+
+.home-dog-hero {
+  // background-image: $bigHomeHero;
+  // @include mq(small) {
+  //   background-image: $mediumHomeHero;
+  // }
+  // @include mq(tinySmall) {
+  //   background-image: $mobileHomeHero;
+  // }
+}
+
+// // ----------------- GALLERY HERO --------------------
+
+// .gallery-dog-hero {
+//   background-image: -webkit-linear-gradient(
+//       rgba(0, 0, 0, 0.7),
+//       rgba(0, 0, 0, 0.7)
+//     ),
+//     $bigGalleryHero;
+//   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
+//     $bigGalleryHero;
+//   @include mq(small) {
+//     background-image: -webkit-linear-gradient(
+//         rgba(0, 0, 0, 0.7),
+//         rgba(0, 0, 0, 0.7)
+//       ),
+//       $mediumGalleryHero;
+//     background-image: linear-gradient(
+//         rgba(61, 28, 28, 0.14),
+//         rgba(0, 0, 0, 0.14)
+//       ),
+//       $mediumGalleryHero;
+//     background-size: 130em;
+//     background-position: 45% 100%;
+//     background-repeat: no-repeat;
+//   }
+//   @include mq(tinySmall) {
+//     background-image: -webkit-linear-gradient(
+//         rgba(0, 0, 0, 0.7),
+//         rgba(0, 0, 0, 0.7)
+//       ),
+//       $mobileGalleryHero;
+//     background-image: linear-gradient(
+//         rgba(61, 28, 28, 0.14),
+//         rgba(0, 0, 0, 0.14)
+//       ),
+//       $mobileGalleryHero;
+
+//     background-size: 70em;
+//     background-position: 50% 100%;
+//   }
+// }
+
+// // ----------------- PRICES HERO --------------------
+
+// .prices-dog-hero {
+//   background-image: -webkit-linear-gradient(
+//       rgba(0, 0, 0, 0.7),
+//       rgba(0, 0, 0, 0.7)
+//     ),
+//     $bigPricesHero;
+//   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
+//     $bigPricesHero;
+
+//   @include mq(small) {
+//     background-image: -webkit-linear-gradient(
+//         rgba(0, 0, 0, 0.7),
+//         rgba(0, 0, 0, 0.7)
+//       ),
+//       $mediumPricesHero;
+//     background-image: linear-gradient(
+//         rgba(61, 28, 28, 0.14),
+//         rgba(0, 0, 0, 0.14)
+//       ),
+//       $mediumPricesHero;
+
+//     background-size: 130em;
+//     background-position: 45% 100%;
+//     background-repeat: no-repeat;
+//   }
+
+//   @include mq(tinySmall) {
+//     background-image: -webkit-linear-gradient(
+//         rgba(0, 0, 0, 0.7),
+//         rgba(0, 0, 0, 0.7)
+//       ),
+//       $mobilePricesHero;
+//     background-image: linear-gradient(
+//         rgba(61, 28, 28, 0.14),
+//         rgba(0, 0, 0, 0.14)
+//       ),
+//       $mobilePricesHero;
+
+//     background-size: 65em;
+//     background-position: 50% 100%;
+//   }
+// }

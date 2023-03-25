@@ -45,7 +45,6 @@ const Hero = (props) => {
               </NavLink>
             </div>
           </Fade>
-          ``
         </Route>
         <Route path="/gallery">
           <div className="hero-text-box hero-text-box-nothome">
