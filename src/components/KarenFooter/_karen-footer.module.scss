@@ -1,12 +1,12 @@
-@import "../../assets/styles/scss/partials/variables";
+@import "../../assets/styles/scss/partials/constants";
 @import "../../assets/styles/scss/partials/mixins";
 
 .side-column {
   margin-top: 3em;
 
-  @include mq(footer) {
-    margin-top: 0em;
-  }
+  // @include mq(footer) {
+  //   margin-top: 0em;
+  // }
 }
 
 .karen-footer-container {
@@ -26,35 +26,35 @@
     "nav title icons" "nav contact icons"
     "copywrite copywrite copywrite";
 
-  @include mq(mediumBig) {
-    font-size: 2rem;
-  }
+  // @include mq(mediumBig) {
+  //   font-size: 2rem;
+  // }
 
-  @include mq(footer) {
-    // justify-content: center;
-    grid-template-areas:
-      "title"
-      "nav"
-      "icons"
-      "contact"
-      "copywrite";
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1.5fr 1.5fr 1fr;
-    gap: 0.7em;
-    align-items: center;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    // "nav title icons" "nav contact icons"
-    // "copywrite copywrite copywrite";
-  }
+  // @include mq(footer) {
+  //   // justify-content: center;
+  //   grid-template-areas:
+  //     "title"
+  //     "nav"
+  //     "icons"
+  //     "contact"
+  //     "copywrite";
+  //   grid-template-columns: 1fr;
+  //   grid-template-rows: 0.5fr 1fr 1.5fr 1.5fr 1fr;
+  //   gap: 0.7em;
+  //   align-items: center;
+  //   padding-left: 2em;
+  //   padding-right: 2em;
+  //   padding-bottom: 2em;
+  //   // "nav title icons" "nav contact icons"
+  //   // "copywrite copywrite copywrite";
+  // }
 
-  @include mq(footerSmall) {
-    grid-template-rows: 1fr 1fr 1fr 1.5fr 1fr;
-  }
-  @include mq(footerTiny) {
-    grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr;
-  }
+  // @include mq(footerSmall) {
+  //   grid-template-rows: 1fr 1fr 1fr 1.5fr 1fr;
+  // }
+  // @include mq(footerTiny) {
+  //   grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr;
+  // }
 }
 
 .footer-heading {
@@ -62,17 +62,17 @@
   padding-bottom: 0.4em;
   color: white;
   text-align: center;
-  @include mq(mediumBig) {
-    font-size: 4.6rem;
-  }
-  @include mq(small) {
-    font-size: 4.6rem;
-    // margin-bottom: 3em;
-  }
+  // @include mq(mediumBig) {
+  //   font-size: 4.6rem;
+  // }
+  // @include mq(small) {
+  //   font-size: 4.6rem;
+  //   // margin-bottom: 3em;
+  // }
 
-  @include mq(footer) {
-    padding-bottom: 0em;
-  }
+  // @include mq(footer) {
+  //   padding-bottom: 0em;
+  // }
 }
 
 // .karen-footer-wrapper {
@@ -102,10 +102,11 @@
   :first-child {
     margin-left: 0px;
   }
+  //   width: 2.4em;
 
-  @include mq(footer) {
-    margin-right: 0em;
-  }
+  // @include mq(footer) {
+  //   margin-right: 0em;
+  // }
 
   a {
     margin-left: 1.2em;
@@ -113,12 +114,12 @@
 
   img {
     width: 2.6em;
-    @include mq(mediumLessBig) {
-      width: 2.4em;
-    }
-    @include mq(medium) {
-      width: 2.1em;
-    }
+    // @include mq(mediumLessBig) {
+    //   width: 2.4em;
+    // }
+    // @include mq(medium) {
+    //   width: 2.1em;
+    // }
   }
 }
 

@@ -5,6 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { useLocation } from "react-router";
 import { NavLink } from "react-router-dom";
 import Fade from "react-reveal/Fade";
+import styles from "./_about.module.scss";
 
 function About(props) {
   const location = useLocation();
@@ -23,7 +24,7 @@ function About(props) {
   }, [location]);
 
   return (
-    <section id="about" className="about-container">
+    <section id="about" className={styles["about-container"]}>
       <Fade>
         <h2>About</h2>
 
@@ -34,17 +35,23 @@ function About(props) {
           drawing and through the years I’ve drawn many pictures of staff and
           over the last two years I’ve turned my hand to pet portraits. I have
           drawn many pictures which you can view in the{" "}
-          <NavLink className="inline-link inline-link-blue" to="/gallery">
+          <NavLink
+            className={`${styles["inline-link"]} ${styles["inline-link-blue"]}`}
+            to="/gallery"
+          >
             <strong> gallery</strong>
           </NavLink>{" "}
           and I work on a{" "}
-          <NavLink className="inline-link inline-link-blue" to="/prices">
+          <NavLink
+            className={`${styles["inline-link"]} ${styles["inline-link-blue"]}`}
+            to="/prices"
+          >
             <strong> comission basis</strong>
           </NavLink>{" "}
           . So if you would like a picture drawn of a special pet for yourself
           or a special present just take a look through my website and{" "}
           <Link
-            className="inline-link inline-link-blue"
+            className={`${styles["inline-link"]} ${styles["inline-link-blue"]}`}
             to="contact"
             smooth={true}
             duration={500}
@@ -53,8 +60,8 @@ function About(props) {
           </Link>
           . I tend to use mediums such graphite, charcoal or coloured pencil.
         </p>
-        <div className="about-photo-container">
-          <img src={karenAbout} className="about-photo" />
+        <div className={styles["about-photo-container"]}>
+          <img src={karenAbout} className={styles["about-photo"]} />
         </div>
       </Fade>
     </section>

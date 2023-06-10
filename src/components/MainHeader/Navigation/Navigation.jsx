@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../../../assets/styles/css/main.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useLocation } from "react-router";
+import styles from "./_navigation.module.scss";
 
 const Navigation = (props) => {
   const location = useLocation();
@@ -22,29 +23,29 @@ const Navigation = (props) => {
 
   return (
     <nav>
-      <ul className="navigation-bar">
-        <NavLink className="nav-link-element" to="/">
+      <ul className={styles["navigation-bar"]}>
+        <NavLink className={styles["nav-link-element"]} to="/">
           Home
         </NavLink>
-        <NavLink className="nav-link-element" to="/#about">
+        <NavLink className={styles["nav-link-element"]} to="/#about">
           About
         </NavLink>
         <NavLink
-          activeClassName="nav-link-element-active"
-          className="nav-link-element"
+          activeClassName={styles["nav-link-element-active"]}
+          className={styles["nav-link-element"]}
           to="/gallery"
         >
           Gallery
         </NavLink>
         <NavLink
-          activeClassName="nav-link-element-active"
-          className="nav-link-element"
+          activeClassName={styles["nav-link-element-active"]}
+          className={styles["nav-link-element"]}
           to="/prices"
         >
           Prices
         </NavLink>
         <Link
-          className="nav-link-element"
+          className={styles["nav-link-element"]}
           to="contact"
           smooth={true}
           duration={500}

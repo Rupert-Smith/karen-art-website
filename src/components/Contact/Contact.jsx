@@ -3,6 +3,7 @@ import SectionTitle from "../UI/SectionTitle/SectionTitle";
 import SectionTitleBox from "../UI/SectionTitleBox/SectionTitleBox";
 import "../../assets/styles/css/main.css";
 import Fade from "react-reveal/Fade";
+import styles from "./_contact.module.scss";
 
 import emailjs from "emailjs-com";
 
@@ -30,14 +31,17 @@ function Contact(props) {
   };
 
   return (
-    <section id="contact">
+    <section className={styles["contact-container"]} id="contact">
       <Fade>
         <SectionTitleBox>
-          <SectionTitle className="contact-title">Message Karen</SectionTitle>
+          <SectionTitle className={styles["contact-title"]}>
+            Message Karen
+          </SectionTitle>
         </SectionTitleBox>
-        <p className="contact-info">
-          I am based in Ampthill, Bedfordshire. Feel free to contact me via the
-          form below, or alternatively ring me at <strong>07944 872769</strong>
+        <p className={styles["contact-info"]}>
+          I am based in Ampthill, Bedfordshire. Feel free to email me at{" "}
+          <strong>karenreep1234@icloud.com</strong>, or alternatively ring me at{" "}
+          <strong>07944 872769</strong>
         </p>
         {/* <form enctype="multipart/form-data" method={"post"}  onSubmit={sendEmail} className="contact-form-container">
           <div className="contact-form">

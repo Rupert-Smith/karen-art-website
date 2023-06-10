@@ -6,6 +6,7 @@ import SectionParagraph from "../UI/SectionParagraph/SectionParagraph";
 import "../../assets/styles/css/main.css";
 import pricingImage from "../../assets/images/pricing/dog6.jpg";
 import { Link, animateScroll as scroll } from "react-scroll";
+import styles from "./_pricing.module.scss";
 
 const emoji = require("emoji-dictionary");
 // const bone = emoji.getUnicode("bone");
@@ -24,9 +25,12 @@ function Pricing(props) {
       <SectionTitleBox>
         <SectionTitle>How much will my portrait cost?</SectionTitle>
       </SectionTitleBox>
-      <div className="pricing-wrapper">
-        <img className="pricing-image-mobile" src={pricingImage} />
-        <SectionParagraph id="pricing-paragraph">
+      <div className={styles["pricing-wrapper"]}>
+        <img className={styles["pricing-image-mobile"]} src={pricingImage} />
+        <SectionParagraph
+          id="pricing-paragraph"
+          className={styles["pricing-paragraph"]}
+        >
           <ul>
             {" "}
             <li>
@@ -51,7 +55,7 @@ function Pricing(props) {
               <strong>
                 fill out the{" "}
                 <Link
-                  className="inline-link inline-link-blue"
+                  className={styles["inline-link inline-link-blue"]}
                   to="contact"
                   smooth={true}
                   duration={500}
@@ -64,7 +68,7 @@ function Pricing(props) {
             </li>
           </ul>
         </SectionParagraph>
-        <img className="pricing-image" src={pricingImage} />
+        <img className={styles["pricing-image"]} src={pricingImage} />
       </div>
     </Section>
   );

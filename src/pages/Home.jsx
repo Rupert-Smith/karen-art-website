@@ -14,7 +14,7 @@ import RupertFooter from "../components/RupertFooter/RupertFooter";
 function Home(props) {
   return (
     <>
-      <MainHeader propsClassName="home-dog-hero" />
+      <MainHeader heroId="home" propsClassName="home-dog-hero" />
       <Welcome />
       <Carousel />
       <ThreeEasySteps />

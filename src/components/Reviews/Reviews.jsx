@@ -1,14 +1,15 @@
 import React from "react";
 import "../../assets/styles/css/main.css";
+import styles from "./_reviews.module.scss";
 
 function Reviews(props) {
   return (
-    <section className="review-section">
-      <div className="review-banner">
+    <section className={styles["review-section"]}>
+      <div className={styles["review-banner"]}>
         <h2>Reviews</h2>
       </div>
-      <div className="review-block-container">
-        <div className="review-block">
+      <div className={styles["review-block-container"]}>
+        <div className={styles["review-block"]}>
           <h3>Outstanding</h3>
           <blockquote>
             Karen's work is outstanding, I am so happy with the two drawings she
@@ -16,7 +17,7 @@ function Reviews(props) {
           </blockquote>
           {/* <cite>Chris Carey</cite> */}
         </div>
-        <div className="review-block">
+        <div className={styles["review-block"]}>
           <h3>Lovely drawing</h3>
           <blockquote>
             Karen thank you so much for my lovely drawing of my Ampthill bull.
@@ -24,7 +25,7 @@ function Reviews(props) {
           </blockquote>
           {/* <cite>Lhara Kavanagh</cite> */}
         </div>
-        <div className="review-block">
+        <div className={styles["review-block"]}>
           <h3>Amazing!</h3>
           <blockquote>
             Frankie loved her picture! Thanks Karen Reep, amazing!!! x

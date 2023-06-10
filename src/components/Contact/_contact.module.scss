@@ -1,5 +1,9 @@
 @import "../../assets/styles/scss/partials/mixins";
 
+.contact-container {
+  padding: 10em;
+}
+
 .contact-title {
   margin-top: 2em;
 }
@@ -11,16 +15,16 @@
   margin-left: 10%;
   margin-right: 10%;
 
-  @include mq(mediumBig) {
-    font-size: 2.2rem;
-  }
+  // @include mq(mediumBig) {
+  //   font-size: 2.2rem;
+  // }
 
-  @include mq(smallMedium) {
-    font-size: 2rem;
-  }
-  @include mq(small) {
-    font-size: 1.9rem;
-  }
+  // @include mq(smallMedium) {
+  //   font-size: 2rem;
+  // }
+  // @include mq(small) {
+  //   font-size: 1.9rem;
+  // }
 }
 
 .contact-form-container {
@@ -43,32 +47,32 @@
     "label input"
     "label input"
     "null send-button";
-  @include mq(tinySmall) {
-    grid-column-gap: 2em;
-    grid-template-areas:
-      "input"
-      "input"
-      "input"
-      "input"
-      "send-button";
-  }
+  // @include mq(tinySmall) {
+  //   grid-column-gap: 2em;
+  //   grid-template-areas:
+  //     "input"
+  //     "input"
+  //     "input"
+  //     "input"
+  //     "send-button";
+  // }
 
   label {
     grid-area: "label";
     // margin-right: 6em
-    @include mq(mediumBig) {
-      font-size: 2.2rem;
-    }
-    @include mq(smallMedium) {
-      font-size: 2rem;
-      grid-column-gap: 1em;
-    }
-    @include mq(small) {
-      font-size: 1.9rem;
-    }
-    @include mq(tinySmall) {
-      display: none;
-    }
+    // @include mq(mediumBig) {
+    //   font-size: 2.2rem;
+    // }
+    // @include mq(smallMedium) {
+    //   font-size: 2rem;
+    //   grid-column-gap: 1em;
+    // }
+    // @include mq(small) {
+    //   font-size: 1.9rem;
+    // }
+    // @include mq(tinySmall) {
+    //   display: none;
+    // }
   }
 
   input[type="text"],
@@ -81,17 +85,17 @@
     padding: 0.6em;
     border-radius: 1px;
     border: 1px solid $main-title-color;
-    @include mq(smallMedium) {
-      font-size: 1.7rem;
-      width: 100%;
-    }
-    @include mq(small) {
-      font-size: 1.6rem;
-    }
-    @include mq(tiny) {
-      width: 90%;
-      margin: auto;
-    }
+    // @include mq(smallMedium) {
+    //   font-size: 1.7rem;
+    //   width: 100%;
+    // }
+    // @include mq(small) {
+    //   font-size: 1.6rem;
+    // }
+    // @include mq(tiny) {
+    //   width: 90%;
+    //   margin: auto;
+    // }
   }
 
   textarea {
@@ -111,12 +115,12 @@
     background-color: $hero-red;
     color: white;
     border: none;
-    @include mq(smallMedium) {
-      font-size: 2rem;
-    }
-    @include mq(tiny) {
-      font-size: 1.9rem;
-      margin: auto;
-    }
+    // @include mq(smallMedium) {
+    //   font-size: 2rem;
+    // }
+    // @include mq(tiny) {
+    //   font-size: 1.9rem;
+    //   margin: auto;
+    // }
   }
 }

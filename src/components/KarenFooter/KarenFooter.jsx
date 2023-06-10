@@ -6,33 +6,36 @@ import framdGrey from "../../assets/images/social-media/framd-grey-small.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useLocation } from "react-router";
 import { NavLink } from "react-router-dom";
+import styles from "./_karen-footer.module.scss";
 
 function KarenFooter() {
   return (
-    <footer className="karen-footer-container">
-      <nav className="footer-navigation side-column">
-        <NavLink className="footer-link-element" to="/">
+    <footer className={styles["karen-footer-container"]}>
+      <nav
+        className={`${styles["footer-navigation"]} ${styles["side-column"]}`}
+      >
+        <NavLink className={styles["footer-link-element"]} to="/">
           Home
         </NavLink>
-        <NavLink className="footer-link-element" to="/#about">
+        <NavLink className={styles["footer-link-element"]} to="/#about">
           About
         </NavLink>
         <NavLink
-          activeClassName="nav-link-element-active"
-          className="footer-link-element"
+          activeClassName={styles["nav-link-element-active"]}
+          className={styles["footer-link-element"]}
           to="/gallery"
         >
           Gallery
         </NavLink>
         <NavLink
-          activeClassName="nav-link-element-active"
-          className="footer-link-element"
+          activeClassName={styles["nav-link-element-active"]}
+          className={styles["footer-link-element"]}
           to="/prices"
         >
           Prices
         </NavLink>
         <Link
-          className="footer-link-element"
+          className={styles["footer-link-element"]}
           to="contact"
           smooth={true}
           duration={500}
@@ -40,12 +43,14 @@ function KarenFooter() {
           Contact
         </Link>
       </nav>
-      <h2 className="footer-heading">Karen Reep Art</h2>
-      <div className="footer-contact">
-        <div className="footer-email">Email: karenreep1234@icloud.com</div>
-        <div className="footer-phone-number">Phone: 07944 872769</div>
+      <h2 className={styles["footer-heading"]}>Karen Reep Art</h2>
+      <div className={styles["footer-contact"]}>
+        <div className={styles["footer-email"]}>
+          Email: karenreep1234@icloud.com
+        </div>
+        <div className={styles["footer-phone-number"]}>Phone: 07944 872769</div>
       </div>
-      <div className="footer-icons side-column">
+      <div className={`${styles["footer-icons"]} ${styles["side-column"]}`}>
         <a
           target="_blank"
           href="https://www.facebook.com/Karens-art-creating-memories-608476719664499"
@@ -62,34 +67,34 @@ function KarenFooter() {
           <img src={framdGrey} />
         </a>
       </div>
-      <div className="footer-copywrite">
+      <div className={styles["footer-copywrite"]}>
         ©2021 Karen Art - All Rights Reserved
       </div>
       {/* <div className="karen-footer-wrapper">
         <div className="footer-column footer-column-navigation footer-column-side">
           <ul className="footer-navigation">
-            <NavLink className="footer-link-element" to="/">
+            <NavLink className={styles["footer-link-element"]} to="/">
               Home
             </NavLink>
-            <NavLink className="footer-link-element" to="/#about">
+            <NavLink className={styles["footer-link-element"]} to="/#about">
               About
             </NavLink>
             <NavLink
-              activeClassName="nav-link-element-active"
-              className="footer-link-element"
+              activeClassName={styles["nav-link-element-active"]}
+              className={styles["footer-link-element"]}
               to="/gallery"
             >
               Gallery
             </NavLink>
             <NavLink
-              activeClassName="nav-link-element-active"
-              className="footer-link-element"
+              activeClassName={styles["nav-link-element-active"]}
+              className={styles["footer-link-element"]}
               to="/prices"
             >
               Prices
             </NavLink>
             <Link
-              className="footer-link-element"
+              className={styles["footer-link-element"]}
               to="contact"
               smooth={true}
               duration={500}

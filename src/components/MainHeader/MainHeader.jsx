@@ -7,7 +7,7 @@ import SocialMediaColorIcons from "./SocialMediaColorIcons/SocialMediaColorIcons
 import Route from "react-router-dom";
 import styles from "./_mainHeader.module.scss";
 
-const MainHeader = ({ propsClassName, contactId }) => {
+const MainHeader = ({ heroId, propsClassName, contactId }) => {
   const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
@@ -21,13 +21,29 @@ const MainHeader = ({ propsClassName, contactId }) => {
     };
   });
 
+  let hero = "";
+
+  switch (heroId) {
+    case "home":
+      hero = "home-dog-hero";
+      break;
+    case "prices":
+      hero = "prices-dog-hero";
+      break;
+    case "gallery":
+      hero = "gallery-dog-hero";
+      break;
+    default:
+      hero = "home-dog-hero";
+  }
+
   return (
-    <header className={`${propsClassName} main-header-container`}>
+    <header className={`${styles[hero]} ${styles["main-header-container"]}`}>
       <SocialMediaColorIcons />
       <Title showHamburger={showMenu} showHamburgerFunction={setShowMenu} />
       <Navigation contactId={contactId} />
       {showMenu ? <MobileNavigation /> : ""}
-      <Hero />
+      <Hero className={styles["home-dog-hero"]} />
     </header>
   );
 };

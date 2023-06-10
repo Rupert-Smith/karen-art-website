@@ -2,6 +2,7 @@ import React from "react";
 import Gallery from "react-grid-gallery";
 import SectionTitle from "../../UI/SectionTitle/SectionTitle";
 import SectionTitleBox from "../../UI/SectionTitleBox/SectionTitleBox";
+import styles from "./_other-pets.module.scss";
 
 import OTHERPETS from "../../../assets/images/gallery/other-pets/index";
 
@@ -15,7 +16,7 @@ function ColorGallery(props) {
         thumbnail: value,
         thumbnailWidth: 672,
         thumbnailHeight: 520,
-        customOverlay: <div className="image-overlay"></div>,
+        customOverlay: <div className={styles["image-overlay"]}></div>,
       });
       continue;
     }
@@ -24,17 +25,19 @@ function ColorGallery(props) {
       thumbnail: value,
       thumbnailWidth: 412,
       thumbnailHeight: 520,
-      customOverlay: <div className="image-overlay"></div>,
+      customOverlay: <div className={styles["image-overlay"]}></div>,
     });
   }
 
   return (
-    <div className="gallery-wrapper">
+    <div className={styles["gallery-wrapper"]}>
       <SectionTitleBox
         id="other-pets-titlebox"
-        className="gallery-title-wrapper"
+        className={styles["gallery-title-wrapper"]}
       >
-        <SectionTitle className="gallery-title">Other Pets</SectionTitle>
+        <SectionTitle className={styles["gallery-title"]}>
+          Other Pets
+        </SectionTitle>
       </SectionTitleBox>
       <Gallery
         rowHeight={290}

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Slider from "react-slick";
+import styles from "./_carousel.module.scss";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -15,6 +16,7 @@ import dogSix from "../../assets/images/carousel/dog6.jpg";
 import dogNine from "../../assets/images/carousel/dog9.jpg";
 import dogEleven from "../../assets/images/carousel/dog11.jpg";
 import CarouselBox from "./CarouselBox";
+import "./carousel.css";
 
 // function Carousel() {
 class Carousel extends React.Component {
@@ -92,7 +94,7 @@ class Carousel extends React.Component {
       ],
     };
     return (
-      <section className="carousel-section-container">
+      <section className={styles["carousel-section-container"]}>
         <Slider {...slider_settings}>
           <div>
             <img src={dogOne} />

@@ -1,3 +1,22 @@
+@import "../../../assets/styles/scss/partials/mixins";
+@import "../../../assets/styles/scss/partials/constants";
+
 .color-wrapper {
   overflow: auto;
+}
+
+.image-overlay {
+  @include imageOverlay;
+}
+
+.gallery-wrapper {
+  @include galleryWrapper;
+}
+
+.gallery-title {
+  @include galleryTitle;
+}
+
+.gallery-title-wrapper {
+  @include galleryTitleWrapper;
 }

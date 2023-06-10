@@ -1,13 +1,14 @@
 import React from "react";
 import "../../../assets/styles/css/main.css";
 import Fade from "react-reveal/Fade";
+import styles from "./_section-title.module.scss";
 
-function SectionTitle(props) {
+function SectionTitle({ className, children }) {
   return (
     <Fade>
-      <h2
-        className={`sectionTitle ${props.className}`}
-      >{`${props.children}`}</h2>
+      <div
+        className={`${styles["sectionTitle"]} ${className}`}
+      >{`${children}`}</div>
     </Fade>
   );
 }

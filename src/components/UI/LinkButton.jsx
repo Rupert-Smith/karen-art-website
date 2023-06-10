@@ -15,11 +15,9 @@ import "../../assets/styles/css/main.css";
 import Card from "./Card/Card";
 import classes from "./LinkButton.module.css";
 
-const LinkButton = (props) => {
+const LinkButton = ({ className, children }) => {
   return (
-    <Card className={`${classes.linkButton} ${props.className}`}>
-      {props.children}
-    </Card>
+    <Card className={`${classes.linkButton} ${className}`}>{children}</Card>
   );
 };
 

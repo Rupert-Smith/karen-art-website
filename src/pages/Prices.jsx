@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import MainHeader from "../components/MainHeader/MainHeader";
 import "../assets/styles/css/main.css";
@@ -7,16 +7,16 @@ import KarenFooter from "../components/KarenFooter/KarenFooter";
 import RupertFooter from "../components/RupertFooter/RupertFooter";
 import Pricing from "../components/Pricing/Pricing";
 
-function Home(props) {
+function Prices(props) {
   return (
-    <Fragment>
-      <MainHeader contactId={"prices-contact"} className="prices-dog-hero" />
+    <>
+      <MainHeader contactId={"prices-contact"} heroId="prices" />
       <Pricing />
       <Contact id="prices-contact" />
       <KarenFooter />
       <RupertFooter />
-    </Fragment>
+    </>
   );
 }
 
-export default Home;
+export default Prices;

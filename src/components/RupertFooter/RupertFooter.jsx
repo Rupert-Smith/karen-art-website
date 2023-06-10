@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/styles/css/main.css";
+import styles from "./_rupert-footer.module.scss";
 
 function RupertFooter(props) {
   const emoji = require("emoji-dictionary");
@@ -8,7 +9,7 @@ function RupertFooter(props) {
   const highVoltage = emoji.getUnicode("high_voltage_sign");
 
   return (
-    <section className="rupertfooter-container">
+    <section className={styles["rupertfooter-container"]}>
       ©2021 Website designed & developed by Rupert Smith at
       rupertwebdev@gmail.com {technologist} www.linkedin.com/in/rupertwebdev
     </section>

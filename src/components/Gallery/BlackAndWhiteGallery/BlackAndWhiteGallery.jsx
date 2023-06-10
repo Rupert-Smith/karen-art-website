@@ -2,6 +2,7 @@ import React from "react";
 import Gallery from "react-grid-gallery";
 import SectionTitle from "../../UI/SectionTitle/SectionTitle";
 import SectionTitleBox from "../../UI/SectionTitleBox/SectionTitleBox";
+import styles from "./_black-and-white-gallery.module.scss";
 
 import BLACKANDWHITEIMAGES from "../../../assets/images/gallery/black-and-white/index";
 
@@ -15,7 +16,7 @@ function BlackAndWhiteGallery(props) {
         thumbnail: value,
         thumbnailWidth: 672,
         thumbnailHeight: 520,
-        customOverlay: <div className="image-overlay"></div>,
+        customOverlay: <div className={styles["image-overlay"]}></div>,
       });
       continue;
     }
@@ -24,14 +25,14 @@ function BlackAndWhiteGallery(props) {
       thumbnail: value,
       thumbnailWidth: 412,
       thumbnailHeight: 520,
-      customOverlay: <div className="image-overlay"></div>,
+      customOverlay: <div className={styles["image-overlay"]}></div>,
     });
   }
 
   return (
-    <div id="black-and-white-wrapper" className="gallery-wrapper">
-      <SectionTitleBox className="gallery-title-wrapper">
-        <SectionTitle className="gallery-title">
+    <div id="black-and-white-wrapper" className={styles["gallery-wrapper"]}>
+      <SectionTitleBox className={styles["gallery-title-wrapper"]}>
+        <SectionTitle className={styles["gallery-title"]}>
           Dog Pencil portraits - black and white
         </SectionTitle>
       </SectionTitleBox>

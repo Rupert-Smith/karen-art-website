@@ -1,15 +1,14 @@
-@import "../../../assets/styles/scss/partials/variables";
+@import "../../../assets/styles/scss/partials/constants";
 @import "../../../assets/styles/scss/partials/mixins";
-@import "../../../assets/styles/scss/partials/functions";
 
 .hero-text-box-container {
-  @include mq(tinySmall) {
-    display: flex;
+  // @include mq(tinySmall) {
+  //   display: flex;
 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
 }
 
 .hero-text-box {
@@ -17,21 +16,21 @@
   // width: 20em;
 
   // right: 53%;
-  transform: translate(-10%, 10%);
+  // transform: translate(-10%, 10%);
 
-  @include mq(medium) {
-    transform: translate(-10%, 10%);
-  }
-  @include mq(tinySmall) {
-    transform: none;
-  }
+  // @include mq(medium) {
+  //   transform: translate(-10%, 10%);
+  // }
+  // @include mq(tinySmall) {
+  //   transform: none;
+  // }
 
-  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
-    transform: translate(-10%, -20%);
-  }
-  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
-    transform: translate(-10%, 10%);
-  }
+  // @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  //   transform: translate(-10%, -20%);
+  // }
+  // @media all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) {
+  //   transform: translate(-10%, 10%);
+  // }
 }
 
 .hero-text-box-home {
@@ -40,38 +39,38 @@
   top: 50%;
   left: 10%;
 
-  @include mq(medium) {
-    left: 12%;
-    width: 50em;
-  }
+  // @include mq(medium) {
+  //   left: 12%;
+  //   width: 50em;
+  // }
 
-  @include mq(small) {
-    left: 14%;
-    width: 50em;
-  }
-  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
-    width: 620px;
-  }
+  // @include mq(small) {
+  //   left: 14%;
+  //   width: 50em;
+  // }
+  // @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+  //   width: 620px;
+  // }
 
-  @include mq(tinySmall) {
-    left: auto;
-    text-align: center;
-    width: 40em;
-    margin: auto;
+  // @include mq(tinySmall) {
+  //   left: auto;
+  //   text-align: center;
+  //   width: 40em;
+  //   margin: auto;
 
-    top: 18%;
-  }
+  //   top: 18%;
+  // }
 
-  @include mq(tinylessSmall) {
-    left: auto;
-    width: 35em;
-    top: 18%;
-    gap: 1.8em;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
+  // @include mq(tinylessSmall) {
+  //   left: auto;
+  //   width: 35em;
+  //   top: 18%;
+  //   gap: 1.8em;
+  //   align-items: center;
+  //   justify-content: center;
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 }
 
 .hero-text-box-nothome {
@@ -79,76 +78,76 @@
   top: 45%;
   left: 13%;
 
-  @include mq(mediumBig) {
-    width: 70em;
-  }
+  // @include mq(mediumBig) {
+  //   width: 70em;
+  // }
 
-  @include mq(medium) {
-    width: 50em;
-  }
+  // @include mq(medium) {
+  //   width: 50em;
+  // }
 
-  @include mq(tinySmall) {
-    left: auto;
-    text-align: center;
-    width: 45em;
-    margin: auto;
+  // @include mq(tinySmall) {
+  //   left: auto;
+  //   text-align: center;
+  //   width: 45em;
+  //   margin: auto;
 
-    top: 18%;
-  }
+  //   top: 18%;
+  // }
 
-  @include mq(tinylessSmall) {
-    left: auto;
-    width: 35em;
-    top: 18%;
-    gap: 1.8em;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-  }
+  // @include mq(tinylessSmall) {
+  //   left: auto;
+  //   width: 35em;
+  //   top: 18%;
+  //   gap: 1.8em;
+  //   align-items: center;
+  //   justify-content: center;
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 }
 
 .hero-tagline {
   color: $hero-grey;
   font-weight: 200;
-    font-family: $fancy-font;
+  font-family: $fancy-font;
 
   width: 100%;
   // font-size: em(95px);
   font-size: 5.9rem;
   margin-bottom: em(5px);
 
-  @include mq(mediumBig) {
-    font-size: 5.6rem;
-  }
+  // @include mq(mediumBig) {
+  //   font-size: 5.6rem;
+  // }
 
-  @include mq(mediumLessBig) {
-    font-size: 5.6rem;
-  }
+  // @include mq(mediumLessBig) {
+  //   font-size: 5.6rem;
+  // }
 
-  @include mq(medium) {
-    font-size: 4.5rem;
-  }
+  // @include mq(medium) {
+  //   font-size: 4.5rem;
+  // }
 
-  @include mq(small) {
-    font-size: 4rem;
-  }
+  // @include mq(small) {
+  //   font-size: 4rem;
+  // }
 
-  @include mq(tinySmall) {
-    font-size: 3.3rem;
-  }
+  // @include mq(tinySmall) {
+  //   font-size: 3.3rem;
+  // }
 
-  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
-    font-size: 6rem;
-  }
-  @include mq(tinylessSmall) {
-    margin-bottom: 0em;
-    font-size: 3rem;
-  }
+  // @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+  //   font-size: 6rem;
+  // }
+  // @include mq(tinylessSmall) {
+  //   margin-bottom: 0em;
+  //   font-size: 3rem;
+  // }
 
-  @include mq(tiny) {
-    font-size: 3rem;
-  }
+  // @include mq(tiny) {
+  //   font-size: 3rem;
+  // }
 }
 
 .hero-title {
@@ -158,54 +157,54 @@
   font-size: $hero-size;
   margin-bottom: 0.08em;
 
-  @include mq(mediumBig) {
-    font-size: 10rem;
-  }
+  // @include mq(mediumBig) {
+  //   font-size: 10rem;
+  // }
 
-  @include mq(medium) {
-    font-size: 10rem;
-  }
-  @include mq(small) {
-    font-size: 8rem;
-  }
-  @include mq(tinySmall) {
-    font-size: 7rem;
-  }
+  // @include mq(medium) {
+  //   font-size: 10rem;
+  // }
+  // @include mq(small) {
+  //   font-size: 8rem;
+  // }
+  // @include mq(tinySmall) {
+  //   font-size: 7rem;
+  // }
 }
 
 .hero-link-button {
-  font-size: em(44px);
+  font-size: 30px;
   display: inline-block;
   padding: 15px 35px;
   text-decoration: none;
 
-  @include mq(mediumLessBig) {
-    font-size: 3rem;
-    padding: 10px 32px;
-  }
+  // @include mq(mediumLessBig) {
+  //   font-size: 3rem;
+  //   padding: 10px 32px;
+  // }
 
-  @include mq(medium) {
-    font-size: 2.5rem;
-    padding: 13px 32px;
-  }
+  // @include mq(medium) {
+  //   font-size: 2.5rem;
+  //   padding: 13px 32px;
+  // }
 
-  @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
-    font-size: 3.6rem;
-    padding: 13px 32px;
-  }
+  // @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+  //   font-size: 3.6rem;
+  //   padding: 13px 32px;
+  // }
 
-  @include mq(small) {
-    font-size: 2rem;
-    padding: 13px 32px;
-  }
-  @include mq(tinySmall) {
-    font-size: 2rem;
-    padding: 13px 32px;
-  }
-  @include mq(tinylessSmall) {
-    font-size: 2.2rem;
-    padding: 10px 29px;
-  }
+  // @include mq(small) {
+  //   font-size: 2rem;
+  //   padding: 13px 32px;
+  // }
+  // @include mq(tinySmall) {
+  //   font-size: 2rem;
+  //   padding: 13px 32px;
+  // }
+  // @include mq(tinylessSmall) {
+  //   font-size: 2.2rem;
+  //   padding: 10px 29px;
+  // }
 }
 
 .link-button:hover {
@@ -223,13 +222,13 @@
 }
 
 .link-button-home-ghost {
-  margin-left: em(14px);
+  margin-left: 14px;
   color: $hero-red;
   border: 2px solid $hero-red;
   transition: 300ms;
-  @include mq(tinylessSmall) {
-    margin-left: 0;
-  }
+  // @include mq(tinylessSmall) {
+  //   margin-left: 0;
+  // }
 }
 
 .link-button-home-ghost:hover {

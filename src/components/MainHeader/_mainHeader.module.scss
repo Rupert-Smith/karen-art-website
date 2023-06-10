@@ -38,7 +38,7 @@
 // // ----------------- HOME HERO --------------------
 
 .home-dog-hero {
-  // background-image: $bigHomeHero;
+  background-image: $bigHomeHero;
   // @include mq(small) {
   //   background-image: $mediumHomeHero;
   // }
@@ -49,87 +49,87 @@
 
 // // ----------------- GALLERY HERO --------------------
 
-// .gallery-dog-hero {
-//   background-image: -webkit-linear-gradient(
-//       rgba(0, 0, 0, 0.7),
-//       rgba(0, 0, 0, 0.7)
-//     ),
-//     $bigGalleryHero;
-//   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
-//     $bigGalleryHero;
-//   @include mq(small) {
-//     background-image: -webkit-linear-gradient(
-//         rgba(0, 0, 0, 0.7),
-//         rgba(0, 0, 0, 0.7)
-//       ),
-//       $mediumGalleryHero;
-//     background-image: linear-gradient(
-//         rgba(61, 28, 28, 0.14),
-//         rgba(0, 0, 0, 0.14)
-//       ),
-//       $mediumGalleryHero;
-//     background-size: 130em;
-//     background-position: 45% 100%;
-//     background-repeat: no-repeat;
-//   }
-//   @include mq(tinySmall) {
-//     background-image: -webkit-linear-gradient(
-//         rgba(0, 0, 0, 0.7),
-//         rgba(0, 0, 0, 0.7)
-//       ),
-//       $mobileGalleryHero;
-//     background-image: linear-gradient(
-//         rgba(61, 28, 28, 0.14),
-//         rgba(0, 0, 0, 0.14)
-//       ),
-//       $mobileGalleryHero;
+.gallery-dog-hero {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    $bigGalleryHero;
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
+    $bigGalleryHero;
+  //   @include mq(small) {
+  //     background-image: -webkit-linear-gradient(
+  //         rgba(0, 0, 0, 0.7),
+  //         rgba(0, 0, 0, 0.7)
+  //       ),
+  //       $mediumGalleryHero;
+  //     background-image: linear-gradient(
+  //         rgba(61, 28, 28, 0.14),
+  //         rgba(0, 0, 0, 0.14)
+  //       ),
+  //       $mediumGalleryHero;
+  //     background-size: 130em;
+  //     background-position: 45% 100%;
+  //     background-repeat: no-repeat;
+  //   }
+  //   @include mq(tinySmall) {
+  //     background-image: -webkit-linear-gradient(
+  //         rgba(0, 0, 0, 0.7),
+  //         rgba(0, 0, 0, 0.7)
+  //       ),
+  //       $mobileGalleryHero;
+  //     background-image: linear-gradient(
+  //         rgba(61, 28, 28, 0.14),
+  //         rgba(0, 0, 0, 0.14)
+  //       ),
+  //       $mobileGalleryHero;
 
-//     background-size: 70em;
-//     background-position: 50% 100%;
-//   }
-// }
+  //     background-size: 70em;
+  //     background-position: 50% 100%;
+  //   }
+}
 
 // // ----------------- PRICES HERO --------------------
 
-// .prices-dog-hero {
-//   background-image: -webkit-linear-gradient(
-//       rgba(0, 0, 0, 0.7),
-//       rgba(0, 0, 0, 0.7)
-//     ),
-//     $bigPricesHero;
-//   background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
-//     $bigPricesHero;
+.prices-dog-hero {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    $bigPricesHero;
+  background-image: linear-gradient(rgba(61, 28, 28, 0.14), rgba(0, 0, 0, 0.14)),
+    $bigPricesHero;
 
-//   @include mq(small) {
-//     background-image: -webkit-linear-gradient(
-//         rgba(0, 0, 0, 0.7),
-//         rgba(0, 0, 0, 0.7)
-//       ),
-//       $mediumPricesHero;
-//     background-image: linear-gradient(
-//         rgba(61, 28, 28, 0.14),
-//         rgba(0, 0, 0, 0.14)
-//       ),
-//       $mediumPricesHero;
+  //   @include mq(small) {
+  //     background-image: -webkit-linear-gradient(
+  //         rgba(0, 0, 0, 0.7),
+  //         rgba(0, 0, 0, 0.7)
+  //       ),
+  //       $mediumPricesHero;
+  //     background-image: linear-gradient(
+  //         rgba(61, 28, 28, 0.14),
+  //         rgba(0, 0, 0, 0.14)
+  //       ),
+  //       $mediumPricesHero;
 
-//     background-size: 130em;
-//     background-position: 45% 100%;
-//     background-repeat: no-repeat;
-//   }
+  //     background-size: 130em;
+  //     background-position: 45% 100%;
+  //     background-repeat: no-repeat;
+  //   }
 
-//   @include mq(tinySmall) {
-//     background-image: -webkit-linear-gradient(
-//         rgba(0, 0, 0, 0.7),
-//         rgba(0, 0, 0, 0.7)
-//       ),
-//       $mobilePricesHero;
-//     background-image: linear-gradient(
-//         rgba(61, 28, 28, 0.14),
-//         rgba(0, 0, 0, 0.14)
-//       ),
-//       $mobilePricesHero;
+  //   @include mq(tinySmall) {
+  //     background-image: -webkit-linear-gradient(
+  //         rgba(0, 0, 0, 0.7),
+  //         rgba(0, 0, 0, 0.7)
+  //       ),
+  //       $mobilePricesHero;
+  //     background-image: linear-gradient(
+  //         rgba(61, 28, 28, 0.14),
+  //         rgba(0, 0, 0, 0.14)
+  //       ),
+  //       $mobilePricesHero;
 
-//     background-size: 65em;
-//     background-position: 50% 100%;
-//   }
-// }
+  //     background-size: 65em;
+  //     background-position: 50% 100%;
+  //   }
+}
